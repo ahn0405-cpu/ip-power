@@ -2156,6 +2156,52 @@ def _kipris_checks() -> None:
         urllib.request.urlopen = orig_open
 
 
+def _site_url_checks() -> None:
+    """저장소 이름이 바뀌어도 canonical·사이트맵이 따라오는가.
+
+    이름을 손으로 적어 두면 이름을 바꾸는 날 조용히 없는 주소를 가리키게 된다 —
+    화면은 멀쩡한데 검색엔진만 잘못된 정본을 믿는, 눈에 안 띄는 종류의 고장이다.
+    """
+    import importlib
+    import os as _os
+
+    import site_render as _sr
+
+    print("\n· 사이트 주소")
+    keep = (_os.environ.get("GITHUB_REPOSITORY"), _os.environ.get("NEWS_SITE_URL"))
+    try:
+        for slug, want in [
+            ("ahn0405-cpu/ippower", "https://ahn0405-cpu.github.io/ippower/"),
+            ("ahn0405-cpu/power-news-patents-archive",
+             "https://ahn0405-cpu.github.io/power-news-patents-archive/"),
+            # <owner>.github.io 저장소만 경로 없이 뿌리에 붙는다.
+            ("ahn0405-cpu/ahn0405-cpu.github.io", "https://ahn0405-cpu.github.io/"),
+        ]:
+            _os.environ["GITHUB_REPOSITORY"] = slug
+            _os.environ.pop("NEWS_SITE_URL", None)
+            m = importlib.reload(_sr)
+            check(m.SITE_URL == want,
+                  f"저장소 이름을 따라간다: {slug} → {m.SITE_URL}")
+        # 사람이 정한 값이 있으면 그것이 이긴다(다른 도메인에 얹을 때 쓴다).
+        _os.environ["NEWS_SITE_URL"] = "https://example.org/x/"
+        m = importlib.reload(_sr)
+        check(m.SITE_URL == "https://example.org/x/",
+              "NEWS_SITE_URL 을 주면 그것이 이긴다")
+        # 이름을 코드에 손으로 적어 두지 않는다(옛 이름이 남으면 이 검사가 잡는다).
+        src = open("site_render.py", encoding="utf-8").read()
+        body = "\n".join(l for l in src.split("\n") if not l.strip().startswith("#"))
+        n = body.count("power-news-patents-archive")
+        check(n <= 1,
+              f"저장소 이름을 코드에 거듭 적지 않는다 (폴백 1곳만 — 받은 값 {n})")
+    finally:
+        for k, v in zip(("GITHUB_REPOSITORY", "NEWS_SITE_URL"), keep):
+            if v is None:
+                _os.environ.pop(k, None)
+            else:
+                _os.environ[k] = v
+        importlib.reload(_sr)
+
+
 def _news_outage_checks() -> None:
     """뉴스 소스가 통째로 죽은 날, 사이트는 그래도 지어지는가.
 
@@ -2437,6 +2483,7 @@ def main() -> int:
     _foreign_checks()
     _origin_checks()
     _news_outage_checks()
+    _site_url_checks()
 
     print(f"\n{'실패 ' + str(len(FAILS)) + '건' if FAILS else '전부 통과'}")
     return 1 if FAILS else 0

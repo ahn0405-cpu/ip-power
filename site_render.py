@@ -286,8 +286,25 @@ SITE_ORG_URL = ("https://www.moip.go.kr/club/front/main/index/"
 
 # 사이트 자기 주소. canonical·og:url·사이트맵이 같은 값을 가리켜야 검색엔진이
 # 하나의 문서로 본다(gh-pages 는 / 와 /index.html 두 주소로 같은 내용을 준다).
-SITE_URL = os.getenv("NEWS_SITE_URL",
-                     "https://ahn0405-cpu.github.io/power-news-patents-archive/")
+def _default_site_url() -> str:
+    """gh-pages 주소를 저장소 이름에서 만든다.
+
+    이름을 손으로 적어 두면 저장소 이름을 바꾸는 날 canonical·사이트맵이 조용히
+    없는 주소를 가리킨다(검색엔진은 그걸 정본으로 믿는다). Actions 는 언제나
+    GITHUB_REPOSITORY 를 주므로 거기서 유도하면 이름이 바뀌어도 따라온다.
+    Actions 밖(로컬 빌드)에서는 그 값이 없으니 지금 주소를 그대로 쓴다.
+    """
+    slug = os.getenv("GITHUB_REPOSITORY", "")
+    if "/" in slug:
+        owner, repo = slug.split("/", 1)
+        # <owner>.github.io 저장소는 경로 없이 뿌리에 붙는다(그 한 경우만 다르다).
+        if repo.lower() == f"{owner.lower()}.github.io":
+            return f"https://{owner.lower()}.github.io/"
+        return f"https://{owner.lower()}.github.io/{repo}/"
+    return "https://ahn0405-cpu.github.io/power-news-patents-archive/"
+
+
+SITE_URL = os.getenv("NEWS_SITE_URL") or _default_site_url()
 # Google Search Console 소유 확인. 방식이 둘이고 콘솔에서 고른 쪽과 맞아야 한다.
 #   HTML 태그  → head 의 meta(아래 토큰)
 #   HTML 파일  → google<토큰>.html 파일을 사이트 루트에 두고, 그 안에

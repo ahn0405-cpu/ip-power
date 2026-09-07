@@ -68,7 +68,8 @@ python build_site.py                 # 뉴스+특허 둘 다 수집 후 site/ �
 ## GitHub Pages 공개 (최초 1회 설정)
 1. 코드를 push 하고 **Actions 탭**에서 워크플로를 한 번 수동 실행(`Run workflow`) → `gh-pages` 생성.
 2. **Settings → Pages → Source** 를 **Deploy from a branch → `gh-pages` / `(root)`** 로 지정.
-3. `https://ahn0405-cpu.github.io/power-news-patents-archive/` 에서 열립니다.
+3. `https://<계정>.github.io/<저장소이름>/` 에서 열립니다.
+   (주소는 저장소 이름을 따라갑니다 — 이름을 바꾸면 canonical·사이트맵도 함께 따라옵니다.)
    이후 뉴스는 매일, 특허는 매주 자동 갱신됩니다.
 
 > 두 워크플로는 실행마다 `gh-pages`에서 **뉴스·특허 아카이브를 모두 복원**한 뒤 자기 담당분만
