@@ -301,7 +301,7 @@ def _default_site_url() -> str:
         if repo.lower() == f"{owner.lower()}.github.io":
             return f"https://{owner.lower()}.github.io/"
         return f"https://{owner.lower()}.github.io/{repo}/"
-    return "https://ahn0405-cpu.github.io/power-news-patents-archive/"
+    return "https://ahn0405-cpu.github.io/ip-power/"
 
 
 SITE_URL = os.getenv("NEWS_SITE_URL") or _default_site_url()
