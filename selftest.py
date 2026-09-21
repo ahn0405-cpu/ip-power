@@ -2276,8 +2276,12 @@ def _kipris_rate_checks() -> None:
     print("\n· KIPRIS 초당 호출 천장")
 
     import patent_config as _pc
-    check(0 < _pc.KIPRIS_RPS <= 50,
-          f"기본 천장이 한도(100회/초)보다 넉넉히 낮다 (받은 값 {_pc.KIPRIS_RPS})")
+    # 계약 한도는 100회/초이고 우리는 75 로 쓰기로 했다(여유 25%). 이 상한을
+    # 검사로 박아 두는 이유: 느려 보인다고 올리고 싶어지는 값인데, 넘겼을 때의
+    # 대가가 권한 상실이라 되돌릴 수 없다.
+    check(0 < _pc.KIPRIS_RPS <= 75,
+          f"기본 천장이 정한 값(75회/초, 계약 한도 100)을 넘지 않는다 "
+          f"(받은 값 {_pc.KIPRIS_RPS})")
 
     keep = _os.environ.get("KIPRIS_RPS")
     try:
