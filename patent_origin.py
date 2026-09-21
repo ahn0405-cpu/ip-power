@@ -40,6 +40,7 @@ import urllib.request
 import xml.etree.ElementTree as ET
 from concurrent.futures import ThreadPoolExecutor
 
+import kipris_rate
 import patent_config as cfg
 
 
@@ -62,6 +63,7 @@ def _fetch(lit: str, office: str) -> tuple[str | None, str]:
     # 이상하다고 매일 도는 빌드를 죽이면 안 된다. http.client 쪽 예외는 OSError
     # 계열이 아니라 따로 잡히지도 않는다 → 통째로 삼키고 사유만 남긴다.
     try:
+        kipris_rate.acquire()   # 초당 천장(모든 KIPRIS 호출이 지난다)
         req = urllib.request.Request(_url(lit, office),
                                      headers={"Accept": "application/xml"})
         with urllib.request.urlopen(req, timeout=cfg.ORIGIN_TIMEOUT) as r:
@@ -147,6 +149,7 @@ def _url_kr(app_no: str) -> str:
 def _fetch_kr(app_no: str) -> tuple[str | None, str]:
     """(국적 코드 또는 None, 실패 사유). 해외 _fetch 와 같은 규약."""
     try:
+        kipris_rate.acquire()   # 초당 천장(모든 KIPRIS 호출이 지난다)
         req = urllib.request.Request(_url_kr(app_no),
                                      headers={"Accept": "application/xml"})
         with urllib.request.urlopen(req, timeout=cfg.ORIGIN_TIMEOUT) as r:

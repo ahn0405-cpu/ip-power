@@ -2257,6 +2257,97 @@ def _news_outage_checks() -> None:
           "빈 목록으로 merge 하면 실제로 빈 날짜가 생긴다 (그래서 건너뛰어야 한다)")
 
 
+def _kipris_rate_checks() -> None:
+    """KIPRIS 초당 호출 수에 천장이 실제로 박혀 있는가.
+
+    한도를 넘기면 '느려짐' 이 아니라 **권한 상실**이라 비대칭이 크다. 그런데
+    워커 수를 줄이는 것으로는 못 막는다 — 실제 속도가 '워커 수 ÷ 응답시간' 이고
+    응답시간이 우리 것이 아니기 때문이다. 실측(워커 20, 즉시 반환): 문이 없으면
+    300건이 한 창에 몰려 한도의 3배가 됐고, 응답이 0.2초여도 정확히 100회/초로
+    여유가 0이었다. 그래서 문자열이 아니라 **실제로 재서** 확인한다.
+    """
+    import bisect
+    import importlib
+    import os as _os
+    import threading
+    import time as _time
+    from concurrent.futures import ThreadPoolExecutor
+
+    print("\n· KIPRIS 초당 호출 천장")
+
+    import patent_config as _pc
+    check(0 < _pc.KIPRIS_RPS <= 50,
+          f"기본 천장이 한도(100회/초)보다 넉넉히 낮다 (받은 값 {_pc.KIPRIS_RPS})")
+
+    keep = _os.environ.get("KIPRIS_RPS")
+    try:
+        # 시험은 빨라야 하므로 천장을 높여 잡고, 그 천장이 지켜지는지를 본다.
+        _os.environ["KIPRIS_RPS"] = "200"
+        importlib.reload(_pc)
+        import kipris_rate as _kr
+        importlib.reload(_kr)
+
+        N, W, RPS = 120, 20, 200.0
+        stamps: list[float] = []
+        lock = threading.Lock()
+
+        def _one(_i: int) -> None:
+            _kr.acquire()
+            with lock:
+                stamps.append(_time.monotonic())   # 호출이 '나가는' 시각
+
+        t0 = _time.monotonic()
+        with ThreadPoolExecutor(max_workers=W) as pool:
+            list(pool.map(_one, range(N)))
+        elapsed = _time.monotonic() - t0
+
+        floor = (N - 1) / RPS
+        check(elapsed >= floor * 0.9,
+              f"천장이 실제로 걸린다 ({N}건이 {elapsed:.2f}초 · 최소 {floor:.2f}초)")
+
+        stamps.sort()
+        peak = 0
+        for i, v in enumerate(stamps):
+            peak = max(peak, bisect.bisect_right(stamps, v + 1.0) - i)
+        check(peak <= RPS * 1.2,
+              f"어느 1초 창에도 몰리지 않는다 (최악의 창 {peak}회 / 천장 {RPS:.0f})")
+
+        # 끄는 값(0 이하)이 들어와도 죽지 않아야 한다. 간격을 1/rps 로 잡으므로
+        # 0 을 그대로 나누면 ZeroDivisionError 로 매일 도는 빌드가 통째로 멈춘다.
+        _os.environ["KIPRIS_RPS"] = "0"
+        importlib.reload(_pc)
+        importlib.reload(_kr)
+        t1 = _time.monotonic()
+        for _ in range(50):
+            _kr.acquire()
+        check(_time.monotonic() - t1 < 0.2,
+              "0 을 넣으면 터지지 않고 그냥 꺼진다 (1/rps 를 그대로 나누지 않는다)")
+    finally:
+        if keep is None:
+            _os.environ.pop("KIPRIS_RPS", None)
+        else:
+            _os.environ["KIPRIS_RPS"] = keep
+        importlib.reload(_pc)
+        import kipris_rate as _kr2
+        importlib.reload(_kr2)
+
+    # 새 호출 지점을 문 없이 추가하는 실수를 잡는다. KIPRIS 를 부르는 파일에서
+    # urlopen 앞 열네 줄 안에 문이 없으면 걸린다.
+    import pathlib
+    ungated = []
+    for f in ("patent_source_kipris.py", "patent_source_foreign.py",
+              "patent_origin.py"):
+        src = pathlib.Path(f).read_text(encoding="utf-8").split("\n")
+        for i, line in enumerate(src):
+            if "urlopen" not in line:
+                continue
+            near = "\n".join(src[max(0, i - 14):i])
+            if "kipris_rate.acquire" not in near:
+                ungated.append(f"{f}:{i + 1}")
+    check(not ungated,
+          f"모든 KIPRIS 호출이 문을 지난다 (문 없는 곳: {ungated})")
+
+
 def main() -> int:
     today = datetime(2026, 7, 27)
     orig = (ps._search, ps._get_token, cfg.OPS_KEY, cfg.OPS_SECRET, cfg.REQUEST_DELAY)
@@ -2484,6 +2575,7 @@ def main() -> int:
     _origin_checks()
     _news_outage_checks()
     _site_url_checks()
+    _kipris_rate_checks()
 
     print(f"\n{'실패 ' + str(len(FAILS)) + '건' if FAILS else '전부 통과'}")
     return 1 if FAILS else 0

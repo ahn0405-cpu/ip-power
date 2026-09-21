@@ -49,6 +49,7 @@ import urllib.request
 import xml.etree.ElementTree as ET
 from datetime import datetime
 
+import kipris_rate
 import patent_config as cfg
 import patent_source_kipris as kr      # 분류·별칭·날짜 도우미를 함께 쓴다
 
@@ -62,6 +63,7 @@ def _url(params: dict) -> str:
 
 
 def _get(params: dict, timeout: int | None = None) -> ET.Element:
+    kipris_rate.acquire()   # 초당 천장(모든 KIPRIS 호출이 지난다)
     req = urllib.request.Request(_url(params), headers={
         "User-Agent": "ip-power/1.0", "Accept": "application/xml"})
     try:

@@ -43,6 +43,7 @@ import xml.etree.ElementTree as ET
 from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timedelta
 
+import kipris_rate
 import patent_config as cfg
 
 
@@ -55,6 +56,7 @@ def _url(op: str, params: dict) -> str:
 
 
 def _get(op: str, params: dict, timeout: int | None = None) -> ET.Element:
+    kipris_rate.acquire()   # 초당 천장(모든 KIPRIS 호출이 지난다)
     req = urllib.request.Request(_url(op, params), headers={
         "User-Agent": "ip-power/1.0", "Accept": "application/xml"})
     try:
@@ -320,6 +322,7 @@ def _cpc_of(application_no: str) -> list[str]:
          cfg.KIPRIS_CPC_KEYPARAM: cfg.KIPRIS_KEY}
     url = (f"{cfg.KIPRIS_CPC_BASE}/{cfg.KIPRIS_SERVICE}/patentCpcInfo?"
            + urllib.parse.urlencode(q))
+    kipris_rate.acquire()   # 초당 천장(모든 KIPRIS 호출이 지난다)
     req = urllib.request.Request(url, headers={
         "User-Agent": "ip-power/1.0", "Accept": "application/xml"})
     try:
