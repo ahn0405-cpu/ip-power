@@ -18,6 +18,29 @@
 
 그래서 응답시간·워커 수·성공 여부와 무관하게 천장을 못으로 박는다. 호출 직전에
 acquire() 를 부르면, 프로세스 전체를 통틀어 초당 KIPRIS_RPS 회를 넘지 않는다.
+
+── 천장만으로는 모자란다: 차단기 ──────────────────────────────────
+천장은 **얼마나 빨리** 두드릴지만 정한다. **언제 그만둘지**는 정하지 않는다.
+
+실제로 벌어진 일(2026-09-22 KIPRIS 답신으로 확인): 초당 호출 초과로 이 ID 가
+차단됐다가 자정에 자동 해제됐다. 정황은 로그에 남아 있다 — 9/14·9/21 주간 실행
+모두 해외 호출이 전부 resultCode=30 으로 즉시 실패했고, 그 실패는 기다림이 없어
+워커 20개가 쉬지 않고 다음 요청을 던졌다. 그런데 모든 예외를 삼키는 구조라
+빌드는 '성공' 으로 끝났다. 아무도 몰랐다.
+
+천장을 박은 지금도 이 부분은 그대로다. 차단당한 뒤에도 남은 13,000번을 75회/초로
+꼬박 3분간 더 두드린다 — 이미 문이 닫힌 곳을, 가장 두드리면 안 될 때.
+
+그래서 문에 차단기를 단다. 끊는 기준은 둘이다.
+  (가) 한도 초과를 **명시**하는 응답(resultCode 22, HTTP 429 …) → 한 번에 끊는다.
+  (나) 성공 없이 연속 실패가 KIPRIS_FAIL_STREAK 회 → 끊는다. 이유가 무엇이든
+       '빠른 실패가 줄지어 오는 상태' 자체가 위험하기 때문이다. 원인을 몰라도
+       끊을 수 있어야 한다 — 원인을 알 때쯤이면 이미 늦다.
+
+중요한 구분: **응답이 비어 있는 것은 실패가 아니다.** 국적 칸이 없거나 검색 결과가
+0건인 것은 서비스가 멀쩡히 답한 것이다(실측: 정상 실행에서도 800곳 중 738곳이
+'국적칸없음' 이었다). 이것을 실패로 세면 멀쩡한 실행에서 차단기가 내려가 보강이
+통째로 죽는다. 차단기가 재는 것은 **서비스의 건강**이지 자료의 수확량이 아니다.
 """
 from __future__ import annotations
 
@@ -57,9 +80,120 @@ class Pacer:
         return max(0.0, delay)
 
 
+class Blocked(RuntimeError):
+    """차단(또는 그 직전)으로 보고 이번 실행의 남은 KIPRIS 호출을 끊었다."""
+
+
+# 한도 초과를 명시하는 신호. 이것이 보이면 연속 실패를 셀 것도 없이 끊는다.
+#  · resultCode 22 = 요청 한도 초과 (probe_kipris.CODE_MEANS 참고)
+#  · HTTP 429 = Too Many Requests
+# 문구는 대문자로 맞춰 비교한다. 여기 없는 표현은 (나) 연속 실패로 걸린다.
+_HARD_MARKS = ("코드22", "RESULTCODE=22", "HTTP 429", "TOO MANY REQUEST",
+               "요청 한도", "REQUEST LIMIT", "EXCEED")
+
+
+class Breaker:
+    """빠른 실패가 줄지어 오면 남은 호출을 끊는다.
+
+    연속 실패만 센다(누적이 아니라). 성공이 하나라도 섞이면 0 으로 되돌린다 —
+    드문드문 실패하는 것은 그냥 그 문헌의 사정이고, 줄줄이 실패하는 것만이
+    '상대가 문을 닫았다' 는 신호이기 때문이다.
+    """
+
+    def __init__(self, streak: int) -> None:
+        self._limit = max(0, streak)
+        self._lock = threading.Lock()
+        self._streak = 0
+        self._tripped = False
+        self._why = ""
+        self._ok = 0
+        self._fail = 0
+        self._skipped = 0          # 차단기가 내려간 뒤 안 보낸 호출 수
+
+    # ── 문 ──────────────────────────────────────────────────────
+    def check(self) -> None:
+        with self._lock:
+            if self._tripped:
+                self._skipped += 1
+                why = self._why
+            else:
+                return
+        raise Blocked(why)
+
+    # ── 결과 보고 ───────────────────────────────────────────────
+    def ok(self) -> None:
+        """서비스가 정상으로 답했다. 자료가 비어 있어도 여기다."""
+        with self._lock:
+            self._ok += 1
+            self._streak = 0
+
+    def fail(self, tag: str) -> None:
+        """서비스에 닿지 못했거나 오류 코드를 받았다."""
+        up = str(tag).upper()
+        hard = any(m in up for m in _HARD_MARKS)
+        with self._lock:
+            self._fail += 1
+            self._streak += 1
+            if self._tripped:
+                return
+            if hard:
+                self._why = f"한도 초과 응답({tag})"
+            elif self._limit and self._streak >= self._limit:
+                self._why = f"성공 없이 연속 {self._streak}회 실패(마지막: {tag})"
+            else:
+                return
+            self._tripped = True
+            why = self._why
+        # 잠금 밖에서 한 번만 크게 남긴다. 조용히 끊으면 이번에도 아무도 모른다.
+        print(f"\n  ⛔ KIPRIS 호출을 끊습니다 — {why}")
+        print("     이번 실행의 남은 KIPRIS 호출은 보내지 않습니다."
+              " (차단 상태에서 계속 두드리면 차단이 길어집니다)\n")
+
+    # ── 실행 끝 보고용 ──────────────────────────────────────────
+    def status(self) -> dict:
+        with self._lock:
+            return {"tripped": self._tripped, "why": self._why,
+                    "ok": self._ok, "fail": self._fail,
+                    "skipped": self._skipped}
+
+
 _PACER = Pacer(cfg.KIPRIS_RPS)
+_BREAKER = Breaker(cfg.KIPRIS_FAIL_STREAK)
 
 
 def acquire() -> float:
-    """KIPRIS 를 부르기 직전에 호출한다."""
+    """KIPRIS 를 부르기 직전에 호출한다. 차단기가 내려갔으면 Blocked 를 던진다."""
+    _BREAKER.check()
     return _PACER.acquire()
+
+
+def ok() -> None:
+    """호출 성공(서비스가 정상 응답). 자료가 비어도 성공이다."""
+    _BREAKER.ok()
+
+
+def fail(tag: str) -> None:
+    """호출 실패(연결 실패·시간초과·오류 코드). 자료 없음은 여기가 아니다."""
+    _BREAKER.fail(tag)
+
+
+def status() -> dict:
+    """실행 끝에 한 번 읽어 로그에 남긴다."""
+    return _BREAKER.status()
+
+
+def summary() -> str:
+    """사람이 읽을 한 줄. 정상이면 빈 문자열."""
+    s = _BREAKER.status()
+    if not s["tripped"]:
+        return ""
+    return (f"⛔ KIPRIS 차단기 작동 — {s['why']} · "
+            f"성공 {s['ok']:,} · 실패 {s['fail']:,} · 보내지 않음 {s['skipped']:,}")
+
+
+def reset(streak: int | None = None, rps: float | None = None) -> None:
+    """시험용. 실행 중에는 쓰지 않는다."""
+    global _PACER, _BREAKER
+    _BREAKER = Breaker(cfg.KIPRIS_FAIL_STREAK if streak is None else streak)
+    if rps is not None:
+        _PACER = Pacer(rps)

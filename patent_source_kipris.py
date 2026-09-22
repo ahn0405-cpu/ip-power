@@ -64,18 +64,25 @@ def _get(op: str, params: dict, timeout: int | None = None) -> ET.Element:
                 req, timeout=timeout or cfg.REQUEST_TIMEOUT) as r:
             raw = r.read()
     except urllib.error.HTTPError as e:
+        kipris_rate.fail(f"HTTP {e.code}")
         raise RuntimeError(f"KIPRIS HTTP {e.code}") from None
+    except Exception as e:                       # noqa: BLE001 — 세고 그대로 던진다
+        kipris_rate.fail(f"연결:{type(e).__name__}")
+        raise
     # KIPRIS 는 없는 경로에 HTTP 200 + 포털 HTML 을 돌려준다(실측). XML 파싱이
     # 깨지는 것으로 드러나므로, 오류 문구를 사람이 읽을 수 있게 바꿔 준다.
     try:
         root = ET.fromstring(raw)
     except ET.ParseError:
         head = raw[:120].decode("utf-8", "replace").replace("\n", " ")
+        kipris_rate.fail("본문파싱")
         raise RuntimeError(f"XML 이 아닌 응답(경로가 틀렸을 수 있다): {head}") from None
     code = (root.findtext(".//resultCode") or "").strip()
     if code and code not in ("00", "0"):
         msg = (root.findtext(".//resultMsg") or "").strip()
+        kipris_rate.fail(f"코드{code}")
         raise RuntimeError(f"KIPRIS resultCode={code} {msg}")
+    kipris_rate.ok()        # 검색 결과가 0건이어도 서비스는 정상 응답한 것이다
     return root
 
 
@@ -322,14 +329,29 @@ def _cpc_of(application_no: str) -> list[str]:
          cfg.KIPRIS_CPC_KEYPARAM: cfg.KIPRIS_KEY}
     url = (f"{cfg.KIPRIS_CPC_BASE}/{cfg.KIPRIS_SERVICE}/patentCpcInfo?"
            + urllib.parse.urlencode(q))
-    kipris_rate.acquire()   # 초당 천장(모든 KIPRIS 호출이 지난다)
     req = urllib.request.Request(url, headers={
         "User-Agent": "ip-power/1.0", "Accept": "application/xml"})
     try:
+        kipris_rate.acquire()   # 초당 천장 + 차단기(모든 KIPRIS 호출이 지난다)
         with urllib.request.urlopen(req, timeout=cfg.OFFICE_TIMEOUT) as r:
             root = ET.fromstring(r.read())
-    except Exception:
+    except kipris_rate.Blocked:
+        # 차단기가 이미 내려갔다. 이 호출은 보내지도 않았으니 실패로 세지 않는다
+        # (셌다가는 끊은 뒤에도 연속 실패가 계속 불어나 숫자가 거짓이 된다).
         return []
+    except Exception as e:                       # noqa: BLE001
+        kipris_rate.fail(f"CPC:{type(e).__name__}")
+        return []
+    # 이 갈래는 오래도록 resultCode 를 보지 않았다. 빈 목록이나 오류 응답이나
+    # 똑같이 '빈 목록' 으로 돌아가서 겉으로는 구분이 안 됐다 — 보강이 '있으면
+    # 좋은' 것이라 아무도 아쉬워하지 않았기 때문이다. 그런데 차단기가 생긴
+    # 지금은 다르다. 여기가 한 실행에서 가장 큰 덩어리(5,000건)라, 여기서
+    # 오류를 정상으로 세면 차단당해도 차단기가 안 내려간다.
+    code = (root.findtext(".//resultCode") or "").strip()
+    if code and code not in ("00", "0"):
+        kipris_rate.fail(f"코드{code}")
+        return []
+    kipris_rate.ok()
     out: list[str] = []
     for node in root.iter("CooperativepatentclassificationNumber"):
         for code in _ipcs(node.text or ""):

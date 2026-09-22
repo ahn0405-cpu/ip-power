@@ -63,23 +63,34 @@ def _fetch(lit: str, office: str) -> tuple[str | None, str]:
     # 이상하다고 매일 도는 빌드를 죽이면 안 된다. http.client 쪽 예외는 OSError
     # 계열이 아니라 따로 잡히지도 않는다 → 통째로 삼키고 사유만 남긴다.
     try:
-        kipris_rate.acquire()   # 초당 천장(모든 KIPRIS 호출이 지난다)
+        kipris_rate.acquire()   # 초당 천장 + 차단기(모든 KIPRIS 호출이 지난다)
         req = urllib.request.Request(_url(lit, office),
                                      headers={"Accept": "application/xml"})
         with urllib.request.urlopen(req, timeout=cfg.ORIGIN_TIMEOUT) as r:
             body = r.read()
+    except kipris_rate.Blocked:
+        # 보내지도 않은 호출이다. 실패로 세면 끊은 뒤에도 연속 실패가 계속 불어나
+        # 숫자가 거짓이 된다 — 세지 않는다.
+        return None, "차단기"
     except TimeoutError:
+        kipris_rate.fail("시간초과")
         return None, "시간초과"
     except Exception as e:                       # noqa: BLE001 — 사유만 남긴다
+        kipris_rate.fail(f"연결:{type(e).__name__}")
         return None, f"연결:{type(e).__name__}"
     try:
         root = ET.fromstring(body)
     except Exception:                            # noqa: BLE001
+        kipris_rate.fail("본문파싱")
         return None, "본문파싱"
     # 해외는 정상일 때 resultCode 가 비어 있다(국내와 반대) — 채워져 있으면 실패다.
     code = (root.findtext(".//resultCode") or "").strip()
     if code:
+        kipris_rate.fail(f"코드{code}")
         return None, f"코드{code}"
+    # 여기부터는 서비스가 정상 응답한 것이다. 아래에서 국적 칸이 비어 나가더라도
+    # 그것은 자료의 사정이지 서비스의 사정이 아니다(kipris_rate 머리글의 구분).
+    kipris_rate.ok()
     cc = (root.findtext(".//applicantInfo/applicantCountry") or "").strip()
     if cc:
         return cc.upper(), ""
@@ -149,23 +160,31 @@ def _url_kr(app_no: str) -> str:
 def _fetch_kr(app_no: str) -> tuple[str | None, str]:
     """(국적 코드 또는 None, 실패 사유). 해외 _fetch 와 같은 규약."""
     try:
-        kipris_rate.acquire()   # 초당 천장(모든 KIPRIS 호출이 지난다)
+        kipris_rate.acquire()   # 초당 천장 + 차단기(모든 KIPRIS 호출이 지난다)
         req = urllib.request.Request(_url_kr(app_no),
                                      headers={"Accept": "application/xml"})
         with urllib.request.urlopen(req, timeout=cfg.ORIGIN_TIMEOUT) as r:
             body = r.read()
+    except kipris_rate.Blocked:
+        return None, "차단기"          # 보내지 않은 호출은 실패로 세지 않는다
     except TimeoutError:
+        kipris_rate.fail("시간초과")
         return None, "시간초과"
     except Exception as e:                       # noqa: BLE001 — 사유만 남긴다
+        kipris_rate.fail(f"연결:{type(e).__name__}")
         return None, f"연결:{type(e).__name__}"
     try:
         root = ET.fromstring(body)
     except Exception:                            # noqa: BLE001
+        kipris_rate.fail("본문파싱")
         return None, "본문파싱"
     # 국내는 정상이 resultCode=00 이다(해외와 반대).
     code = (root.findtext(".//resultCode") or "").strip()
     if code and code != "00":
+        kipris_rate.fail(f"코드{code}")
         return None, f"코드{code}"
+    # 서비스는 정상 응답했다. 아래에서 국적이 안 나오더라도 자료의 사정이다.
+    kipris_rate.ok()
     # **반드시 applicantInfo 안에서만** 읽는다. 응답에는 agentInfo 에도 country 가
     # 있고 대리인은 거의 언제나 한국 특허법인이라, 스코프 없이 .//country 로 읽으면
     # 외국 출원인까지 전부 '대한민국' 으로 돌아온다.

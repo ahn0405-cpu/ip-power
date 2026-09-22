@@ -71,18 +71,25 @@ def _get(params: dict, timeout: int | None = None) -> ET.Element:
                 req, timeout=timeout or cfg.REQUEST_TIMEOUT) as r:
             raw = r.read()
     except urllib.error.HTTPError as e:
+        kipris_rate.fail(f"HTTP {e.code}")
         raise RuntimeError(f"KIPRIS 해외 HTTP {e.code}") from None
+    except Exception as e:                       # noqa: BLE001 — 세고 그대로 던진다
+        kipris_rate.fail(f"연결:{type(e).__name__}")
+        raise
     try:
         root = ET.fromstring(raw)
     except ET.ParseError:
         head = raw[:120].decode("utf-8", "replace").replace("\n", " ")
+        kipris_rate.fail("본문파싱")
         raise RuntimeError(
             f"XML 이 아닌 응답(경로가 틀렸을 수 있다): {head}") from None
     # 여기가 국내와 뒤집힌 자리다 — 채워져 있으면 오류다(위 주석 2 참고).
     code = (root.findtext(".//resultCode") or "").strip()
     if code:
         msg = (root.findtext(".//resultMsg") or "").strip()
+        kipris_rate.fail(f"코드{code}")
         raise RuntimeError(f"KIPRIS 해외 resultCode={code} {msg}")
+    kipris_rate.ok()        # 0건이어도 서비스는 정상 응답이다
     return root
 
 

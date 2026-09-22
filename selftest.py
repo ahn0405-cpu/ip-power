@@ -2351,6 +2351,170 @@ def _kipris_rate_checks() -> None:
     check(not ungated,
           f"모든 KIPRIS 호출이 문을 지난다 (문 없는 곳: {ungated})")
 
+    _kipris_breaker_checks()
+
+
+def _kipris_breaker_checks() -> None:
+    """차단기 — 차단당한 뒤에도 계속 두드리지 않는가.
+
+    천장(위)과 다른 물음이다. 천장은 '얼마나 빨리', 차단기는 '언제 그만둘지'.
+    2026-09-22 KIPRIS 답신으로 이 ID 가 실제 차단됐다 해제된 것이 확인됐고,
+    9/14·9/21 실행 로그가 그 정황(전 호출 즉시 실패 · 빌드는 성공)을 남겼다.
+    """
+    import threading
+    from concurrent.futures import ThreadPoolExecutor
+
+    import kipris_rate as _kr
+
+    print("\n· KIPRIS 차단기")
+
+    def _run(seq: list, streak: int = 50) -> tuple[int, dict]:
+        """seq 를 차례로 시도. 항목이 None 이면 성공, 문자열이면 그 사유로 실패."""
+        _kr.reset(streak=streak, rps=0)
+        sent = 0
+        for tag in seq:
+            try:
+                _kr.acquire()
+            except _kr.Blocked:
+                continue
+            sent += 1
+            _kr.ok() if tag is None else _kr.fail(tag)
+        return sent, _kr.status()
+
+    # (가) 한도 초과를 명시하는 응답은 한 번에 끊는다 — 연속을 셀 것도 없다.
+    for mark in ("코드22", "HTTP 429"):
+        sent, st = _run([mark] + [None] * 2000)
+        check(sent == 1 and st["tripped"],
+              f"'{mark}' 는 한 번에 끊는다 (보낸 호출 {sent}회 / 시도 2001회)")
+
+    # (나) 9/21 재현 — 전 호출이 즉시 실패하는 상태에서 13,000건을 시도한다.
+    sent, st = _run(["코드30"] * 13000)
+    check(sent <= 50 and st["tripped"],
+          f"성공 없이 줄줄이 실패하면 끊는다 (13,000건 시도 → {sent}회만 보냄)")
+    check(st["skipped"] == 13000 - sent,
+          f"보내지 않은 호출을 센다 ({st['skipped']:,}건)")
+
+    # 거짓 경보가 없어야 한다. 이것이 깨지면 멀쩡한 실행에서 보강이 통째로 죽는다.
+    # 실측 정황: 정상 실행에서도 800곳 중 738곳이 '국적칸없음' 이었다. 그것은
+    # 서비스가 정상 응답한 것이므로 ok() 로 보고되고, 실패로 세면 안 된다.
+    sent, st = _run([None] * 800)
+    check(sent == 800 and not st["tripped"],
+          "자료가 비어도(국적칸없음 등) 끊지 않는다 — 실패가 아니라 정상 응답이다")
+
+    mixed = ["시간초과" if i % 7 == 0 else None for i in range(4000)]
+    sent, st = _run(mixed)
+    check(sent == 4000 and not st["tripped"],
+          f"실패가 드문드문 섞이는 것으로는 끊지 않는다 (7건에 1건 실패 · {sent}건 다 보냄)")
+
+    # 경계 — 연속 기준 바로 앞뒤.
+    _, st49 = _run(["시간초과"] * 49)
+    _, st50 = _run(["시간초과"] * 50)
+    check(not st49["tripped"] and st50["tripped"],
+          "연속 49회는 두고 50회에서 끊는다")
+
+    # 성공이 하나 섞이면 연속이 끊긴다(누적이 아니라 연속을 세는 것이 요점이다).
+    _, st = _run(["시간초과"] * 49 + [None] + ["시간초과"] * 49)
+    check(not st["tripped"],
+          "성공이 하나 섞이면 연속이 0 으로 돌아간다 (누적이 아니라 연속을 센다)")
+
+    # 끄는 값이 들어와도 명시 신호는 여전히 끊어야 한다.
+    sent, st = _run(["시간초과"] * 500, streak=0)
+    check(sent == 500 and not st["tripped"], "STREAK=0 이면 연속 기준을 끈다")
+    sent, st = _run(["코드22"] + [None] * 100, streak=0)
+    check(sent == 1 and st["tripped"],
+          "STREAK=0 이어도 한도 초과 응답은 끊는다")
+
+    # 병렬에서도 새지 않는다. 끊는 순간 이미 문을 지난 워커가 있으므로 상한은
+    # streak + 워커 수다 — 그보다 많이 나가면 잠금이 새는 것이다.
+    _kr.reset(streak=50, rps=0)
+    lock, sent_n = threading.Lock(), [0]
+
+    def _one(_i: int) -> None:
+        try:
+            _kr.acquire()
+        except _kr.Blocked:
+            return
+        with lock:
+            sent_n[0] += 1
+        _kr.fail("코드30")
+
+    with ThreadPoolExecutor(max_workers=20) as pool:
+        list(pool.map(_one, range(4000)))
+    check(sent_n[0] <= 70,
+          f"워커 20개로 두드려도 상한(50+20)을 넘지 않는다 (보낸 호출 {sent_n[0]}회)")
+
+    # 요약이 실제로 사람이 읽을 문자열을 낸다 — 조용히 끊으면 이번에도 모른다.
+    _run(["코드22"])
+    check("차단기" in _kr.summary(), "끊겼으면 요약 한 줄을 낸다")
+    _run([None] * 10)
+    check(_kr.summary() == "", "정상이면 요약은 빈 문자열이다")
+
+    # 빌드가 그 요약을 실제로 찍는지. 함수만 있고 아무도 안 부르면 소용없다.
+    # 주석은 줄머리든 줄끝이든 걷어내고 본다 — 설명글이나 주석 처리된 호출에
+    # 이름이 남아 있다고 통과하면, 호출을 지워도 검사가 안 걸린다(실측: 놓쳤다).
+    import pathlib
+    import re as _re
+    _bs = pathlib.Path("build_site.py").read_text(encoding="utf-8")
+    _code = "\n".join(
+        _re.sub(r"#.*$", "", l) for l in _bs.split("\n"))
+    check("kipris_rate.summary()" in _code,
+          "빌드가 실행 끝에 차단기 요약을 찍는다")
+
+    # 실패 보고가 빠진 호출 지점이 있으면 차단기는 영원히 안 내려간다. 파일에
+    # fail( 이 있는지 세는 것으로는 못 잡는다 — 한 갈래만 빠져도 다른 갈래의
+    # fail 이 검사를 통과시켜 준다(실측: 놓쳤다). 그래서 갈래마다 **실제로**
+    # 응답을 흘려 보내고 차단기가 셌는지 본다.
+    _probe_fail_reporting()
+
+    _kr.reset()
+
+
+def _probe_fail_reporting() -> None:
+    """오류 응답을 각 호출 갈래에 흘려 보내고, 차단기가 그것을 셌는지 본다."""
+    import io
+    import urllib.request
+
+    import kipris_rate as _kr
+    import patent_origin as _po
+    import patent_source_kipris as _pk
+    import patent_source_foreign as _pf
+
+    class _Resp(io.BytesIO):
+        def __enter__(self): return self
+        def __exit__(self, *a): return False
+
+    def _feed(body: bytes):
+        return lambda req, timeout=None: _Resp(body)
+
+    # 국내 계열은 resultCode 00 이 정상, 해외 계열은 **빈 값**이 정상이다.
+    KR_BAD = b"<response><header><resultCode>22</resultCode>" \
+             b"<resultMsg>LIMIT</resultMsg></header></response>"
+    FG_BAD = b"<response><header><resultCode>30</resultCode>" \
+             b"<resultMsg>Not Registerd</resultMsg></header></response>"
+
+    cases = [
+        ("해외 국적(_fetch)", _po, lambda: _po._fetch("US1", "US"), FG_BAD),
+        ("국내 국적(_fetch_kr)", _po, lambda: _po._fetch_kr("10-2020-1"), KR_BAD),
+        ("목록(_get)", _pk, lambda: _pk._get("op", {}), KR_BAD),
+        ("CPC 보강(_cpc_of)", _pk, lambda: _pk._cpc_of("10-2020-1"), KR_BAD),
+        ("해외 목록(_get)", _pf, lambda: _pf._get({}), FG_BAD),
+    ]
+    for name, mod, call, body in cases:
+        keep = urllib.request.urlopen
+        _kr.reset(streak=0, rps=0)      # 연속 기준은 꺼 둔다 — 세는지만 본다
+        try:
+            urllib.request.urlopen = _feed(body)
+            try:
+                call()
+            except Exception:           # noqa: BLE001 — 던지든 삼키든 상관없다
+                pass
+        finally:
+            urllib.request.urlopen = keep
+        got = _kr.status()
+        check(got["fail"] == 1 and got["ok"] == 0,
+              f"{name}: 오류 응답을 차단기에 보고한다 "
+              f"(실패 {got['fail']} · 성공 {got['ok']})")
+
 
 def main() -> int:
     today = datetime(2026, 7, 27)

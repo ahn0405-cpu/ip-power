@@ -32,6 +32,7 @@ import patent_archive
 import patent_source
 import brief_archive
 import ip_guide
+import kipris_rate
 import site_render
 
 # 특허 수집 백엔드를 고른다. 두 모듈이 같은 계약(collect / collect_offices)을
@@ -203,6 +204,12 @@ def main() -> None:
     pt = sum(len(w.get("patents", [])) for w in patent_weeks.values())
     print(f"\n완료 → {index}")
     print(f"       뉴스 {len(news_days)}일/{nt}건 · 특허 {len(patent_weeks)}주/{pt}건")
+    # 차단기가 내려갔으면 끝에서 한 번 더 크게 말한다. 수집 중의 경고는 수천 줄
+    # 로그에 묻히고, 빌드는 성공으로 끝나 아무도 모른다 — 9/14·9/21 이 그랬다.
+    _kipris_note = kipris_rate.summary()
+    if _kipris_note:
+        print(f"       {_kipris_note}")
+        print("       ↑ 이번 특허 수집은 불완전합니다. KIPRIS 상태를 확인하세요.")
     _report_payload(index)
 
 
