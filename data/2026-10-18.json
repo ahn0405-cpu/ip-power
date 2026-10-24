@@ -1,0 +1,222 @@
+{
+  "date": "2026-10-18",
+  "articles": [
+    {
+      "title": "[1MW 시대의 해법] 삼성전기, AI 서버 전력난에 MLCC 기술 부각…랙당 1MW 대응",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9KQ2ZBa1Z4Q3FHUGZjSUtac1h3NTFON2EyVlItS2dhYm1pbDR0Ql9yTWl2bjJEekNQakg4RkFpSmgwNGlKN25IenRnZHUtLVEwNUdURjBFbE00X1kxTjR4Vl80RzFLcU5x?oc=5",
+      "source": "CBC뉴스",
+      "published": "2026-10-17T05:05:00+00:00",
+      "summary": "[1MW 시대의 해법] 삼성전기, AI 서버 전력난에 MLCC 기술 부각…랙당 1MW 대응 CBC뉴스",
+      "category": "supply"
+    },
+    {
+      "title": "HD현대일렉트릭, 英 내셔널그리드에 초대형 변압기 3기 공급…데이터센터 전력망 확충",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5UQThyZEl6MzhETUktVm1BeGg3cmpQWDRMTkxqSDk2eDdWQWpHSVk2aEE2bURreXFQbzlfSFpuLThkV2Vmc243VXpfM3RHMHFIaHl3Ylo4NXhtTFFUNlE?oc=5",
+      "source": "더구루",
+      "published": "2026-10-17T22:00:13+00:00",
+      "summary": "HD현대일렉트릭, 英 내셔널그리드에 초대형 변압기 3기 공급…데이터센터 전력망 확충 더구루",
+      "category": "grid"
+    },
+    {
+      "title": "우리 집 옆에 15만 볼트 송전선로가 묻힌다고 합니다",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFAzSkh3d2RBM01IZ0NmaG5zNzBMUHczLTBIOUFNNFlJS1hFNXpld1pudkZwNkgtUWJfd2dpbGJrT0REMHFFVy1INkRYcC1hd0M1LU5DWVNUQ3JwV0pJNS1OcFBJUDl2cDM1b1lFMjJEQlVoT3pHVFdN?oc=5",
+      "source": "OhmyNews",
+      "published": "2026-10-17T03:01:00+00:00",
+      "summary": "우리 집 옆에 15만 볼트 송전선로가 묻힌다고 합니다 OhmyNews",
+      "category": "grid"
+    },
+    {
+      "title": "해상풍력 전기, 해저케이블 타고 육상 전력망으로",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFB1Z0tmT21LS0x1b0duRElDWXlkWXBhMjFuejNFYWdvM1hKdHA1emNDT2VfX2s2a0ZDMFVVRE1MQVNwbXk2QmdSRzhrdi1TWHdvbTBSVlpWaGs1RXU1emVjeTNPcnBjQQ?oc=5",
+      "source": "비건뉴스",
+      "published": "2026-10-17T16:54:38+00:00",
+      "summary": "해상풍력 전기, 해저케이블 타고 육상 전력망으로 비건뉴스",
+      "category": "grid"
+    },
+    {
+      "title": "세명전기, 500kV HVDC 송전망 기술 확장…초고압 전력 인프라 공략",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE54TEg2OXpQX2FyYTRXLXp1ZTFaWlZhOGJXMUgweVE3R2w5dW9DT1pHQmpLQ0FyOXBZTml1VEpnT0FWaldvRGhnTFNfSlp0UGx4XzJqNnl6bjYzWFhJX0M3SFY2UHNEaDZrYXd4ZXZNVjJpbGfSAXdBVV95cUxOWTg2blZmQU9ZMTFTSVVMMFc3MmE3Z09WSXhTUVpFYmF2aG1FVE1KUlZwazF5aERlS0ZDLUJtUms0eDBqaTZDUTRDTUliWjNGR25NOU1aTllnRDlqdVZWY0F2RFNiSFhuMmZ4WWljajVKVk0ySXBFWQ?oc=5",
+      "source": "핀포인트뉴스",
+      "published": "2026-10-17T05:46:52+00:00",
+      "summary": "세명전기, 500kV HVDC 송전망 기술 확장…초고압 전력 인프라 공략 핀포인트뉴스",
+      "category": "grid"
+    },
+    {
+      "title": "송전선로 20개 법정리 포함…주민 위기감 고조",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5mYjdSSGlzeUFTaUNHUkRuN2hwMzRyaXFxTmtiWHJONEM3NWU3eDZKSENZVnBDdWdiVmwzZkZzT2hEaTBZT3FoX1ZFOHZUQUJYTUlrWjhva0p2eEN1WVAxbndjelpKNEptVUE?oc=5",
+      "source": "무주신문",
+      "published": "2026-10-16T04:59:19+00:00",
+      "summary": "송전선로 20개 법정리 포함…주민 위기감 고조 무주신문",
+      "category": "grid"
+    },
+    {
+      "title": "‘붕어빵 원전’ SMR의 역설, 아세안 규제 장벽부터 깨라",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBQSFJVU2d6bWxzc0ZFQ1oxV01sUlZfUnZRYzFmMm5yaHNkN3VCc29DdzZJdENhdWNCYVlmbUhaSE1QRlNFSXpGaUxOU0drbGRfRWFweTZkMzNqdEZybnZpSmhOUDI?oc=5",
+      "source": "에너지안전신문",
+      "published": "2026-10-17T16:35:00+00:00",
+      "summary": "‘붕어빵 원전’ SMR의 역설, 아세안 규제 장벽부터 깨라 에너지안전신문",
+      "category": "nuclear"
+    },
+    {
+      "title": "미국 시장 뚫었다…원전의 화려한 귀환",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBtNG1XbDZJTGNnQ3VSd2gzMWVMTzQ0UVJTdnN3dTh3VkxXb3h1VFluNHJidnpBblNrMDhqQ3BWb0RZT2NPYXlna256Z0t4VzZhcDZfYmNn?oc=5",
+      "source": "매일경제",
+      "published": "2026-10-16T06:07:13+00:00",
+      "summary": "미국 시장 뚫었다…원전의 화려한 귀환 매일경제",
+      "category": "nuclear"
+    },
+    {
+      "title": "원전 주기기부터 가스터빈까지…두산에너빌리티, 전력 인프라 수요 잡는다",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5wbXUtZTJvNjU5YjNMZ2JhVVRYa0VWa1FOa3BGVG1YUHFZWXRpSnRHc0k1UC1QSDdMRjE2RHJjei1HVjRtMG5NVmhtelYzVUkzdnE4RF9EckpmWW5lazFkY2JQNmhDLXhOX0RqOUR5OUhuUTjSAXdBVV95cUxOd01NQkM0Y21Ra1UyZjR5R1JodDNNckwza0pad3VfNEJmT2sydWJfOFhrSEpnXzdNcUdxamw1eWV0T1piNF9Qbk0xSU1tcFpPZVBaS01NTURVR0lSaDF3OHNrdDlrQ2VSX3pvNnIzY1NKQjYxUnBzbw?oc=5",
+      "source": "핀포인트뉴스",
+      "published": "2026-10-17T15:25:00+00:00",
+      "summary": "원전 주기기부터 가스터빈까지…두산에너빌리티, 전력 인프라 수요 잡는다 핀포인트뉴스",
+      "category": "nuclear"
+    },
+    {
+      "title": "[원전] 우리기술 1만원대 안착…SMR 특별법 시행에 기대감 고조",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE0xN1hGSTNWTHIwNzFKeVV2cTJLaHZ6R2xzaV9idmdWM0dPaF9aaXUzNWswV2lOQjVVWk5ZNkIxa1l0R0N0UFR0YmE2em9FblJHdHNUM3lxcFRSZjJUdjRpYnE4cHUxdmRU?oc=5",
+      "source": "CBC뉴스",
+      "published": "2026-10-17T16:10:00+00:00",
+      "summary": "[원전] 우리기술 1만원대 안착…SMR 특별법 시행에 기대감 고조 CBC뉴스",
+      "category": "nuclear"
+    },
+    {
+      "title": "박동일 신임 산업부 차관...제조업·원전 두루 거친 산업정책 전문가",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE0xVzVzZW9YajFwaDQ2YmtSMTJHUi01eW56UzFUXzlIVHQ0VUVHRHpYYWVlU3VKRnpNNzdPOGdBcDBMdjhYN0R2M3paZWJwVDBSd1ZiTTV4RDhDRlhReVFOYnRXblRwdTg?oc=5",
+      "source": "산경e뉴스",
+      "published": "2026-10-17T11:17:30+00:00",
+      "summary": "박동일 신임 산업부 차관...제조업·원전 두루 거친 산업정책 전문가 산경e뉴스",
+      "category": "nuclear"
+    },
+    {
+      "title": "한전기술 원전 비상대응거점 설계 변경계약 공시",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5JdE5rOWM2Y2VlaFdCQkF5RWtDSHo1TURnWnJjZHVCTnlzVGo3ZVRqS3Y4YzV4QzVONFhWc0l5NnV1SmRXeXZqTEhJOUtPdFA4bTJZem9sdE15emUySmhPTGo4TEZ5dw?oc=5",
+      "source": "비건뉴스",
+      "published": "2026-10-17T19:48:37+00:00",
+      "summary": "한전기술 원전 비상대응거점 설계 변경계약 공시 비건뉴스",
+      "category": "nuclear"
+    },
+    {
+      "title": "\"아세안 원전 규제, 뭉쳐야 산다\"… IAEA의 SMR 통합 열쇠",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE54N0pzanpXMzR5a0NXOWJmSnU0eWY0a3FnakZmS0c4MmQ5Y1VwVTYzVUgyY080a1BaWUVOZVpMNzk1dGtBeU5kOHhfQ0YyS19ycTJUQlJDQm1HalBYNW5tQWIxSlM?oc=5",
+      "source": "에너지안전신문",
+      "published": "2026-10-17T15:45:00+00:00",
+      "summary": "\"아세안 원전 규제, 뭉쳐야 산다\"… IAEA의 SMR 통합 열쇠 에너지안전신문",
+      "category": "nuclear"
+    },
+    {
+      "title": "세아베스틸, BWXT 캐나다와 원전 고부가 부품 공급 협력 추진",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5KVjVtZXZPU2J3ZXFXNUNWRjdnMC1WWFdwRTNZcjc5OTZSZG8tdkcxMnVjTUdaYWtKWC1DUlJGV2thLU5RejNhU3hPX2ZXSWRSaUhSUHR3dTZndHBHYXZjZ9IBYEFVX3lxTE5KVjVtZXZPU2J3ZXFXNUNWRjdnMC1WWFdwRTNZcjc5OTZSZG8tdkcxMnVjTUdaYWtKWC1DUlJGV2thLU5RejNhU3hPX2ZXSWRSaUhSUHR3dTZndHBHYXZjZw?oc=5",
+      "source": "연합뉴스",
+      "published": "2026-10-15T01:01:36+00:00",
+      "summary": "세아베스틸, BWXT 캐나다와 원전 고부가 부품 공급 협력 추진 연합뉴스",
+      "category": "nuclear"
+    },
+    {
+      "title": "[에너지 오디세이]⑬'바람의 나라' 대한민국, 해상풍력 강국이 될 수 있나",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5ScHNobDVrM09PUkQzTVdxVVVuSlBNaERiMDZjbDNuSFBRRjI0ZEY3bkpfV1RDSFMycjVjdmJwUVNldEVfLU9yaGsxY280OFhBYno2QzNIdU4zR3ZGR18tNg?oc=5",
+      "source": "아시아경제",
+      "published": "2026-10-17T23:00:00+00:00",
+      "summary": "[에너지 오디세이]⑬'바람의 나라' 대한민국, 해상풍력 강국이 될 수 있나 아시아경제",
+      "category": "renew"
+    },
+    {
+      "title": "\"바다 위 풍력발전기, 안보 파수꾼 된다\"…CSIS, 해상풍력의 국가안보 활용 제안",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5TR2NFR2ZydDVTaURZc0VSelpHNEg3ZEQ2VGQ2bDJyQVhqcnA4TkxYRXZ4aDJoc3hkSEdRTmxKN2tDaWxnMFBISF9hSzBhRWNBSDdpZlNGS1p2cFN1dXg2OWMxQ1ZqeGVpTkJPT0pwbw?oc=5",
+      "source": "프리진뉴스",
+      "published": "2026-10-17T07:49:32+00:00",
+      "summary": "\"바다 위 풍력발전기, 안보 파수꾼 된다\"…CSIS, 해상풍력의 국가안보 활용 제안 프리진뉴스",
+      "category": "renew"
+    },
+    {
+      "title": "HD현대중공업, 차세대 이지스함 3번함 진수…해상풍력·해양 SMR 사업 확대",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE55d2JmT1RiRFBWeUV2TXlnVFNYZUFNbC03VGNuaW5lVWpxUUF1WDc5bEVPTFhSZlAyWXNUeDc3d2ItM3p3emFxMG1OWEpYMWtKai0tYV95LVktYlpFLW9tWnBiVE9SZTM3bUVNQ0R6TE10UQ?oc=5",
+      "source": "웹이코노미",
+      "published": "2026-10-17T15:19:51+00:00",
+      "summary": "HD현대중공업, 차세대 이지스함 3번함 진수…해상풍력·해양 SMR 사업 확대 웹이코노미",
+      "category": "renew"
+    },
+    {
+      "title": "[사진] 해상 풍력발전 장비 살펴보는 관람객",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1ZY3BQcFFPd1NYZnlGVm4tY0ZUeldnTmhJRXc3U0h3cE1sRkhzR2w5anF4c1ZRWmlYeDJnRmxsS0hrbDUxaEZRekJEZVVnaTVSQ1JyZG82dUVyNElKOE91WDh4OGNOVDh4SHRZ?oc=5",
+      "source": "서울뉴스통신",
+      "published": "2026-10-17T01:42:17+00:00",
+      "summary": "[사진] 해상 풍력발전 장비 살펴보는 관람객 서울뉴스통신",
+      "category": "renew"
+    },
+    {
+      "title": "HD현대일렉트릭, LG CNS와 '데이터센터 전력 인프라와 스마트팩토리 구축' 업무협약",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5BWmhONUV4R2Q2UHBqazdOZWowVXVheTBDcFZCWG5QRTEya2NVWTNLLWRhRGs2VG1zX19OaWh4LXljRFVlNHBxS2ZnZGYybXNuWjhyU3dZSjh4U2l1SVZMSjlINm5OZF9HZWlROTZyaw?oc=5",
+      "source": "이코노뉴스",
+      "published": "2026-10-17T04:13:00+00:00",
+      "summary": "HD현대일렉트릭, LG CNS와 '데이터센터 전력 인프라와 스마트팩토리 구축' 업무협약 이코노뉴스",
+      "category": "datacenter"
+    },
+    {
+      "title": "가정용 전기 요금에 적용되는 5단계 소매 요금제의 시행일에 대한 설명을 요청합니다.",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQcUJtQjJ4UWtya25IdEItbWlUdHJYemp2TGF0UDdsS2wyUDBDZ0VIU0NvX0w0aWpmUDNpaDRjNTdMMzl2NWt6dVpYX3ltLWlZSl9vZTJySkNYc3l6U2xybnY0U0JhaXp2bmdSN2FQcV9qVllZNlk0MEFYZGJWbXpDWjM0TGd0Z195S0hEU0VYMm41NUc1dVdaYVA5d3Itdw?oc=5",
+      "source": "Vietnam.vn",
+      "published": "2026-10-17T06:48:28+00:00",
+      "summary": "가정용 전기 요금에 적용되는 5단계 소매 요금제의 시행일에 대한 설명을 요청합니다. Vietnam.vn",
+      "category": "policy"
+    },
+    {
+      "title": "가정용 전기 요금에 대한 5단계 소매 요금제 시행일을 명확히 합니다.",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOZl8wRDVWUFd3dUg2Zl9OY1E5c0J5cUE2dHBIU3NVUVF6cU1lRHh2NUdqbWFfc0Exci1zVkQzeTdMdFF6UVdFYlZyd2JBc1cydzQ5eGM3WGJaUlNJUFFoNUtvWGs5Nmg3SDJEdFpwczBzei1xYkE1R3hZUDFJRXljZzQ1UWgzalM3UjVnRFdMY2g?oc=5",
+      "source": "Vietnam.vn",
+      "published": "2026-10-17T03:36:27+00:00",
+      "summary": "가정용 전기 요금에 대한 5단계 소매 요금제 시행일을 명확히 합니다. Vietnam.vn",
+      "category": "policy"
+    },
+    {
+      "title": "채비, 전기차 충전 보조사업 4개 부문 선정...운영·제조 모두 인정",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1SWVExTE55ZFpPeGtCUnpaemc5T2Fja0pXVXEyY1VRX3RBWV9GSnlLTDlyYVVPaUpNakZfbGd0eEJsU1Fqamg5VHNTZEh4R05KRmplVW5tU2VlUWpnTnc?oc=5",
+      "source": "뉴스투데이",
+      "published": "2026-10-17T02:34:33+00:00",
+      "summary": "채비, 전기차 충전 보조사업 4개 부문 선정...운영·제조 모두 인정 뉴스투데이",
+      "category": "ev"
+    },
+    {
+      "title": "프랑스, 전기화 계획 확대: 스마트 열펌프·전기차 충전·태양광·저장장치 계통 부담 완화 - 뉴스 및 통계",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQdzA3TU1IeEtVckZkT3BRMDlBSkUyV29QZ3kxUnpEeHdnRlQ4RHJ0ODZERjBHdnRWenhXcENQWWF4cGFBNDJEelE3QXdLblhCY2oydVIwREhjMjdibGQzWDdfV2lfRGdTOGlkLWJKZWlRSmQ2dkNrSEw4VHppN2dfU3hERTJnTXZlNzc5dHNQdTk0T2JaMlNNa0x4N2lPeWVqOUNXM0hXX2pHeVhyenQ0TnJwcw?oc=5",
+      "source": "IndexBox",
+      "published": "2026-10-17T10:10:44+00:00",
+      "summary": "프랑스, 전기화 계획 확대: 스마트 열펌프·전기차 충전·태양광·저장장치 계통 부담 완화 - 뉴스 및 통계 IndexBox",
+      "category": "ev"
+    },
+    {
+      "title": "\"원자로 없어도 실습 OK\"… 차세대 원전 사관학교 자처한 美 대학들",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBUREJHU0trMkhQdHpYcXYzaDdkZUQ0T1N6OWNvN3hDR3k1ajVWQVZiZUVNaUR1RzFVOEpBUVNBNzQxbGNvTm1zRTlmNUlWVW95REl5NzJoTjhlQ0w0N0ltWjRBM3M?oc=5",
+      "source": "에너지안전신문",
+      "published": "2026-10-18T00:27:51+00:00",
+      "summary": "\"원자로 없어도 실습 OK\"… 차세대 원전 사관학교 자처한 美 대학들 에너지안전신문",
+      "category": "nuclear"
+    },
+    {
+      "title": "창원특례시, SMR 중심 미래 50년 원전산업 집중 육성",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9aT3NPaWhYbWw5MGpGeHZHcDBidjd0VGFVZGFwdE5QTklqUmtZczNYM1JfNTFtYzFycmE5YVNtVjc0VTNEUVVFV1VzUmpzTjhrZVJDaWNUUS1OMkI1R01wdHEyd0I2NjFvTlNmbzNB?oc=5",
+      "source": "서프라이즈뉴스",
+      "published": "2026-10-18T00:16:18+00:00",
+      "summary": "창원특례시, SMR 중심 미래 50년 원전산업 집중 육성 서프라이즈뉴스",
+      "category": "nuclear"
+    },
+    {
+      "title": "창원시, ‘SMR중심 원전산업’ 미래 50년 먹거리로 육성",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1SOGs1aTl5YkVUZVJjSlpCZDBkeXFoWWtJWjA4NjVIRndPbGluel81elpBMnZyX3ZUY0xLOGgydE1ITFVZdzFsV2M3ZjlXRW1KLTB3UnpTOEp1aXBlbFIyMtIBeEFVX3lxTE4ydURaZWlDSlpUS1FCaTliNTUtUEM0SzZrckh2a0FfaXZoR1hiQ0NtZFJxU1NLNExtSkROZnQ5LV9kSUlYRWNtQV96RWI3NEJidVNXWDB4aHRwQnEwT2JMY2VsNTAyZ2pQeG1nVUFIdW03VTdpTnpfMw?oc=5",
+      "source": "뉴시스",
+      "published": "2026-10-18T01:00:55+00:00",
+      "summary": "창원시, ‘SMR중심 원전산업’ 미래 50년 먹거리로 육성 뉴시스",
+      "category": "nuclear"
+    },
+    {
+      "title": "부유식 해상풍력은 계류선과 앵커로 버틴다",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBpaGFvZC1DLUpVM21mT19OcmZoemJxYmxIY0loTmZQTkJuVlZRdnRncGVPc0lnZkYyZ0k3bHVEVC1qVkk4ekZjMFB6OVlNZHBxQllMZHB2VkdJRmNtTDUyOHVfOEhQQQ?oc=5",
+      "source": "비건뉴스",
+      "published": "2026-10-17T14:32:42+00:00",
+      "summary": "부유식 해상풍력은 계류선과 앵커로 버틴다 비건뉴스",
+      "category": "renew"
+    }
+  ],
+  "mock": false
+}
