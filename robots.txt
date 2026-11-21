@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://ahn0405-cpu.github.io/ip-power/sitemap.xml

@@ -1,0 +1,646 @@
+{
+  "date": "2026-09-09",
+  "articles": [
+    {
+      "title": "전력난 걱정했는데 대반전…‘햇볕 쨍할수록’ 아이러니",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE55MmN1TUpsaHNxVDFPMDZnRTlZaXBhU0lGTjdUVXY5SnR5eWYzdTBkd19mSHFqVW5hLWJ0MEdjQTA5bDF1NHduRjVaTVdHMGstX2VERg?oc=5",
+      "source": "JTBC",
+      "published": "2026-08-05T07:00:00+00:00",
+      "summary": "전력난 걱정했는데 대반전…‘햇볕 쨍할수록’ 아이러니 JTBC",
+      "category": "supply"
+    },
+    {
+      "title": "AI 데이터센터 전력 대란 잡을 비장의 카드… 옵토전자·한양대 ‘CPO 광반도체’ 맞손",
+      "url": "https://news.google.com/rss/articles/CBMiwAJBVV95cUxNTlBmOVhKOVdrczROM3NXR1lCaElSVjQ3OEVrZUJXS2ZYVWdTZ3hsaXF3cTQ0OWxhdnk0NVQyQ180MUYtd0ZsdXJzczh0YXd1bVowVlpUT2pNeF9LUzVSNlBDZUdtWkpjNWM3cHJjVjJVQkxWbWIxVVJoYUowdHpIcmVWSnZZZkRzanpMN3BQWmc3ODRId0NmNVhWdWRrV1VjQlQyWERsUW05RUtONHZCbVE4c0E2OXYzS0lhSlBqb0J5NVlhUFE1ZUJ6dWFqRVI1cGticWVTeGV1TFVxRmxfWDZDUWtWUGcyWlZlcU43NDBBTUJObEVscTJlOFdIM2ZVZXFaWDhEdWhraGNXbzdSVFg4SEE4Z2c2RXVDOEZLTFZMSmhoWXRXNnJVb3VCM09HanMyT0NRMGhwN28zOWFZSw?oc=5",
+      "source": "아이씨엔매거진",
+      "published": "2026-09-08T01:30:50+00:00",
+      "summary": "AI 데이터센터 전력 대란 잡을 비장의 카드… 옵토전자·한양대 ‘CPO 광반도체’ 맞손 아이씨엔매거진",
+      "category": "supply"
+    },
+    {
+      "title": "“변전소, 우리 마을로”…‘전력망 갈등’ 새 해법?",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1aSU9pU2VCT0FKaS1CY1pFbm5zX3hiNnpwV2RFRVV5MEJ0MTBqR2lWZE95M2pHZnBjeXpWVG9yMGswNldDWW1aUE8xNHViSlBNX2JqNkR6TmtSZzQ?oc=5",
+      "source": "KBS 뉴스",
+      "published": "2026-09-08T10:16:00+00:00",
+      "summary": "“변전소, 우리 마을로”…‘전력망 갈등’ 새 해법? KBS 뉴스",
+      "category": "grid"
+    },
+    {
+      "title": "[에너지포커스] “변전소 제발 우리 동네로”… 님비(NIMBY) 깬 고창 성송면의 유쾌한 반란",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE0zWHhYaDdCRzluT1ZBUzVWNnBYTmVmNHJtdUJzZ29MdktFeC1HS2drNjlnTWtTT1F5VmRrekVZdkctUVpaYnNRck5KMGc0cXVIcHlYTHVJZmtxWE96bS1XTnhTN1VtZ3M?oc=5",
+      "source": "산경e뉴스",
+      "published": "2026-09-08T13:22:42+00:00",
+      "summary": "[에너지포커스] “변전소 제발 우리 동네로”… 님비(NIMBY) 깬 고창 성송면의 유쾌한 반란 산경e뉴스",
+      "category": "grid"
+    },
+    {
+      "title": "홍성군의회 \" 관통 초고압 송전선로 건설 전면 백지화하라\"",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBXWk5pNWREMmdmc1BCa2s4YUdTajZKNk81aHNZQUhjMUhGTjV6NmF4eWxnOHNpTFQ0RVQzN2ljd21BUXZ2TXN2a21zelV4UmQyQ29LdzZ6dF9wT19jM1Y1N05SYUtFNEt4?oc=5",
+      "source": "한국NGO신문",
+      "published": "2026-09-08T08:39:28+00:00",
+      "summary": "홍성군의회 \" 관통 초고압 송전선로 건설 전면 백지화하라\" 한국NGO신문",
+      "category": "grid"
+    },
+    {
+      "title": "김미영 시의원, “1통영-아주 송전선로 건설, 협의체 구성해야”",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE45SnM3bTZFbi1ZZm9XYUtwbzIzWlZ3WVNyVGk3UC1TdVdLbHlCZFVYVzVmbUcwVnZ2NlFFUkZDNTFseHozZ1UtdnZQQjNwTXRfd0hVYXVUb0l2RmZ0TlkySmdkbVVnSlFVZTZv?oc=5",
+      "source": "거제통영오늘신문",
+      "published": "2026-09-08T11:36:40+00:00",
+      "summary": "김미영 시의원, “1통영-아주 송전선로 건설, 협의체 구성해야” 거제통영오늘신문",
+      "category": "grid"
+    },
+    {
+      "title": "\"기피시설 아닌 지역 발전의 밑거름\"…변전소 유치 '만장일치'",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5rUlNZbFRJUTFKMG5GYmJwS2hQMTZkcWIzZDVxbExScFlxUUI5U3ZSY0tLcTk2TUhYc1Y2UF9BRVFVYjgxbWk1ZWhUaDJLbENtZDRrVA?oc=5",
+      "source": "v.daum.net",
+      "published": "2026-09-08T06:06:00+00:00",
+      "summary": "\"기피시설 아닌 지역 발전의 밑거름\"…변전소 유치 '만장일치' v.daum.net",
+      "category": "grid"
+    },
+    {
+      "title": "“왜 홍성군민이 희생하나”…홍성군의회, 초고압 송전선로 건설 백지화 촉구",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9VdDd5WHNBWkpCbmNXNWRwUHkxNm94UU9VMFNhb0x2QWhta1lvNU53cjMwbDB6UFpxU1ZtUWZ3WjVKdUhYZTdneXVBS0hWaDdqZWsxMkVVcms2THRXbEd5NlZ4QlI0a0tkWkI3MlJB?oc=5",
+      "source": "아시아투데이",
+      "published": "2026-09-08T07:16:13+00:00",
+      "summary": "“왜 홍성군민이 희생하나”…홍성군의회, 초고압 송전선로 건설 백지화 촉구 아시아투데이",
+      "category": "grid"
+    },
+    {
+      "title": "충남 전역 번지는 송전선로 반발…홍성군의회도 가세",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE05cGYtM2x4SDQ1NjM1TVVONktJMXJOMnFETjVvUzB4SGxsODVIakxrMHYwbEJhNEtJS1FEa2tUNG84NGZQQXdXbTBOajRpaG9iRHpTZldoMkZIcDh2aXlzSlRXUjBMbk5tRXc?oc=5",
+      "source": "중부매일",
+      "published": "2026-09-08T05:30:04+00:00",
+      "summary": "충남 전역 번지는 송전선로 반발…홍성군의회도 가세 중부매일",
+      "category": "grid"
+    },
+    {
+      "title": "고창 성송면 주민들 '우리 마을에 변전소 지어달라'",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE85em1fZllXZVV6RThRdjVLWllhdERCREctZFBiby1WdGRTTXJwRkkwT1NwVFlESm9zMURVanBqcXJMODR1TE01N1oxR0dvLW5SdGxMRUtRTWp3Y0s2T25RcHV3TW83dzBuOUE?oc=5",
+      "source": "전북제일신문",
+      "published": "2026-09-08T05:47:40+00:00",
+      "summary": "고창 성송면 주민들 '우리 마을에 변전소 지어달라' 전북제일신문",
+      "category": "grid"
+    },
+    {
+      "title": "홍성군의회 임시회 개회…추경 심사·송전선로 백지화 결의",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE91Vks1ZXZNWmJPNjRuOVpwZzEwMmRfUTZOZkZrV0czbmdYaUtQeVgwcWVrbEJiV1BiRmZnLUF4TjRLUFZ3ZnFfRnFkMGVidjVxMzZBcWVFOFrSAVhBVV95cUxPdVZLNWV2TVpiTzY0bjlacGcxMDJkX1E2TmZGa1dHM25nWGlLUHlYMHFla2xCYldQYkZmZy1BeE40S1BWd2ZxX0ZxZDBlYnY1cTM2QXFlRTha?oc=5",
+      "source": "ajunews.com",
+      "published": "2026-09-08T07:19:04+00:00",
+      "summary": "홍성군의회 임시회 개회…추경 심사·송전선로 백지화 결의 ajunews.com",
+      "category": "grid"
+    },
+    {
+      "title": "한전, '345kV 신고창변전소' 건립 3년 만에 본궤도… 고창군 성송면 주민 만장일치 찬성",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxORlV6RG9wVVBLTmJVOG42ck5oY1lPaDlYY2dnbTQyeDkwcmZJdnhnLWRrYTV6ZzFBVUlpY2p0X2hUcHVEbnh2YmVvWmZpMXVKRXptRDR6eFVUSEFBZDhvSEVDYnlRdFRaUUU3d0lXd2NabklaVVQyZlBoc18zMlFfdjFjYUt5ZHZ2ZGc?oc=5",
+      "source": "글로벌이코노믹",
+      "published": "2026-09-08T06:28:00+00:00",
+      "summary": "한전, '345kV 신고창변전소' 건립 3년 만에 본궤도… 고창군 성송면 주민 만장일치 찬성 글로벌이코노믹",
+      "category": "grid"
+    },
+    {
+      "title": "345kV 신고창변전소 '고창 성송면' 확정…3년 표류 끝에 주민 자발적 유치로 물꼬",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9HOW8xenA4MTdpaFhLUTdWVUljaEpjYV9SUTIteWFDSU1DMFYtb0tLUDc5V2JrTS1qaGhHalpQOTV2SUdlazJwdW9BUUZHN3hYejk0MzhHOUF3RTJmeE1GR2QwZ1NqUQ?oc=5",
+      "source": "jeonmin.co.kr",
+      "published": "2026-09-08T07:21:09+00:00",
+      "summary": "345kV 신고창변전소 '고창 성송면' 확정…3년 표류 끝에 주민 자발적 유치로 물꼬 jeonmin.co.kr",
+      "category": "grid"
+    },
+    {
+      "title": "정부, 웨스팅하우스 지분 인수 검토… 한·미 원전동맹 급물살",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBwWnV1Q1BXZmMzUXNfZVVzcmFXd0R0RkxPb2E2ckg4bnZFZlpPN0hybmhaUTVUc3FRSGlrVkl5NlpleVViM0w2LXpBcDVqWTlhWVQzMHNuYWZJQdIBX0FVX3lxTFByRU05Vjl6bmRGOXM3eWxhb2w5R3JJNExhVHhFYVpVUThBYTlDdmZQVk9UOUwtUzROQVFObnEtdzNOVmJaSFVaQ05pRHFWRGpKR3RuT3JaOFg2bFRXeTFV?oc=5",
+      "source": "경향신문",
+      "published": "2026-09-08T12:10:00+00:00",
+      "summary": "정부, 웨스팅하우스 지분 인수 검토… 한·미 원전동맹 급물살 경향신문",
+      "category": "nuclear"
+    },
+    {
+      "title": "IAEA와 국제금융 손잡고 원전 빗장 푼다…한국 원전산업 수출 청신호",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBQTThoNzdwZ3FhZ3p6Zzloc0dfMGRILUNySnhwVlZ1a01WU3RJcE5zRmFfaGFMajBWeFVuZFVuSTZXWHo5X2Y5MmJ1Y29DS2pBSDZTQkZCaEdJaDZMdVBkRkdJSE8?oc=5",
+      "source": "에너지안전신문",
+      "published": "2026-09-08T20:38:44+00:00",
+      "summary": "IAEA와 국제금융 손잡고 원전 빗장 푼다…한국 원전산업 수출 청신호 에너지안전신문",
+      "category": "nuclear"
+    },
+    {
+      "title": "\"원전 2기는 한국형으로...웨스팅하우스 지분 인수도 추진\"",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1JYXdxWE5UZkdYbDFVZ1gtN21zUm1YTWpYNzBHRHNXOVJ5UHN5UjU5Mmk3c2daYUlRQTBzeWhNa2MzNUZoRzBjd3I1bjNJVUpnWDgtdzNEMlpnSmFjd3c?oc=5",
+      "source": "YTN",
+      "published": "2026-09-08T14:02:00+00:00",
+      "summary": "\"원전 2기는 한국형으로...웨스팅하우스 지분 인수도 추진\" YTN",
+      "category": "nuclear"
+    },
+    {
+      "title": "한국, AI 확산에 전력 수요 급증 전망… “당분간 원전 의존 불가피”",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBrUkl0WjRJZnI1VThRYnRzeHBrXzhrNDFJV2J0d3FaZWhybW0xekstQUpSWG1DZjFtMkRpV3RwZk5KR1ZDUmxvYjluTkEwU25YMzhWcXlRU0VJMlZhSUUwaDVRazBwS3dUWm1XeHhNWVYyQnJxR1plQUJiQk5IZ9IBgAFBVV95cUxOUWFzVHBJdGZzRGVUTTdYRkpFM2pTRlpFakF5QjNFdDVKd1lTME1mcXMtSnZWSkVaRVQ1QUxkM2xuVmVuejVYYnFvVk9odV9DUWo5ZkhNNlNyeTQxVU12NjRGWFhVWkZXc0RnbEExckU5UXNfMGlOc1l4UUFGWjNzdA?oc=5",
+      "source": "VOA 한국어 홈페이지",
+      "published": "2026-09-08T19:07:18+00:00",
+      "summary": "한국, AI 확산에 전력 수요 급증 전망… “당분간 원전 의존 불가피” VOA 한국어 홈페이지",
+      "category": "nuclear"
+    },
+    {
+      "title": "한·프, AI·원전연료 등 16건 협력문건 체결…삼성, 미스트랄AI 전략투자",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE04OVB6eHNvRDhxQ2t2OWZqclZhODJIR3pvRDNMNExpUzk0MzhmSk13V2VkM2diSDFxTF93dXQwTC1XaXhma2pVaHpWdk9RaWMzdlNieWtrVlVkcldyQm41ZQ?oc=5",
+      "source": "아시아경제",
+      "published": "2026-09-08T21:56:59+00:00",
+      "summary": "한·프, AI·원전연료 등 16건 협력문건 체결…삼성, 미스트랄AI 전략투자 아시아경제",
+      "category": "nuclear"
+    },
+    {
+      "title": "K-원전 영토확장 기회… 공사 리스크ㆍ손실 떠안을수도",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5PY1JDVkI5YU9xcTFSdGdKZVg5MFg2NHlCUnZTN2NSZlhUenpkVF92dVg1cy1OLWNWV2J1emlnNkJsZkZEMUVENGIxTFVQeFRCNC15NEF5QWVhbkhDblN1M0Mxa2ZZOGtCTHE4blpYVG9sVU1x?oc=5",
+      "source": "대한경제",
+      "published": "2026-09-08T21:00:37+00:00",
+      "summary": "K-원전 영토확장 기회… 공사 리스크ㆍ손실 떠안을수도 대한경제",
+      "category": "nuclear"
+    },
+    {
+      "title": "[광화문에서/박민우]55년 서사 쌓인 K원전의 미국행… 대체불가 파트너 자리 굳혀야",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5VNlJTbjJqWkhTNklFcjhSRms3R09Gb1NrZWxSNUZMUUFJZ3BuXzBjN01hQnVNMno4bl8xbHlSLWtUUU9yZk8teEVyOTc4ZC1ZMlh6eEpfaHNjS09helpBQ2NIaUdnd9IBZkFVX3lxTE5VNlJTbjJqWkhTNklFcjhSRms3R09Gb1NrZWxSNUZMUUFJZ3BuXzBjN01hQnVNMno4bl8xbHlSLWtUUU9yZk8teEVyOTc4ZC1ZMlh6eEpfaHNjS09helpBQ2NIaUdndw?oc=5",
+      "source": "동아일보",
+      "published": "2026-09-08T14:09:00+00:00",
+      "summary": "[광화문에서/박민우]55년 서사 쌓인 K원전의 미국행… 대체불가 파트너 자리 굳혀야 동아일보",
+      "category": "nuclear"
+    },
+    {
+      "title": "韓·佛, 원전 협력 강화…\"호르무즈 공조 지속\"",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE03ekxNZWVmcl9kUEdEVDZMMUktVFQ2S0VMSE9KaG9vRDlLR0lPMWdsVFpxRC1kLTJsYV9oZG5jbldHZFkwN1RKWERNUC16V2ltSU15NmI5Zmo2UQ?oc=5",
+      "source": "한국경제",
+      "published": "2026-09-08T17:00:01+00:00",
+      "summary": "韓·佛, 원전 협력 강화…\"호르무즈 공조 지속\" 한국경제",
+      "category": "nuclear"
+    },
+    {
+      "title": "빌 게이츠의 테라파워, 영국서 나트륨 원전 추진…2034년 가동 목표",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5LLW8yTXQyMC1MWjhYeXlzNEI1WnV4akljMW9nUXdqX3Z5cHg1TS1vWmQzbWNlc3lfeXhNalpwSGJXSlRiRklXblZ3dE5nWVU?oc=5",
+      "source": "v.daum.net",
+      "published": "2026-09-08T21:01:32+00:00",
+      "summary": "빌 게이츠의 테라파워, 영국서 나트륨 원전 추진…2034년 가동 목표 v.daum.net",
+      "category": "nuclear"
+    },
+    {
+      "title": "웨스팅하우스 의결권 확보땐 원전수출 숨통…전문가들 “실익 없을 것”",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9IRVNYeTc5ZHJfUHhPVU40Zk9WMlhJeUlzZVplemV1N1Vjd0hBcUQ1N1JESXlhYWthNGVzX3V5Qno2bXFBNFpPZWhjdzZSeW9JN2Fnb2hDZG5iSzkyelVOcW5Tb05sOERHWlc4?oc=5",
+      "source": "한겨레",
+      "published": "2026-09-08T22:22:00+00:00",
+      "summary": "웨스팅하우스 의결권 확보땐 원전수출 숨통…전문가들 “실익 없을 것” 한겨레",
+      "category": "nuclear"
+    },
+    {
+      "title": "미 정부, 구글 AI 전력 위해 멈춘 원전 재가동…19억달러 지원",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1LU3dwQTN4eERPMHZtVlR4T3lDQVBITXNpdy1rVFotdVpQWjgtVFJ4VDlrRGt6b29LQmVIN3pxdFJrNXZQcDAtbmdpaE9VcWZKX1RVdi15VjRBV0lCZkk3WUFZZXc?oc=5",
+      "source": "에너지안전신문",
+      "published": "2026-09-08T21:47:14+00:00",
+      "summary": "미 정부, 구글 AI 전력 위해 멈춘 원전 재가동…19억달러 지원 에너지안전신문",
+      "category": "nuclear"
+    },
+    {
+      "title": "해상풍력 주변 선박 모니터링 서비스",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1uTUZGelVZeXhnWVBPYTMxVUVKSmcyWG5YbkhHYTd1WkdGNE9SZHlGTnVTalNtN3RYSEU5ckhQZGFvMEJJZnE2U0RhOTJwb1dScnZpVzBQNHE3VjEzZmpfdnVQTzhYTHFZcVJkYTdWdURiQUk?oc=5",
+      "source": "한국해운신문",
+      "published": "2026-09-08T22:44:26+00:00",
+      "summary": "해상풍력 주변 선박 모니터링 서비스 한국해운신문",
+      "category": "renew"
+    },
+    {
+      "title": "전기안전 영역 확장...ESS·해상풍력·전기차 사고 대응 한자리",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE00eXVoa1dCMnNtdHhNQ01hZXI4Ti1iNjFsSGlsX0hqRGtxNWdKV283b1l6dEg4YmR6bVJzcmNOaUlTYVRPdEh1MFdteWJvQ190QlRuU0hIbGtKbVMtaFhHczc5TE1EanFMLTVkT3otRmQ?oc=5",
+      "source": "에너지신문",
+      "published": "2026-09-08T16:29:39+00:00",
+      "summary": "전기안전 영역 확장...ESS·해상풍력·전기차 사고 대응 한자리 에너지신문",
+      "category": "renew"
+    },
+    {
+      "title": "해상풍력단지 ‘선박 충돌’ 실시간 감시한다…해수부, 통항안전 모니터링 첫 도입",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE0wSm5tNV91ekltMlB3VVVxOXNuMHo0VXJlRW5QdWE3d1RmSTFKVmdlZEIwLU8yRHY0cElWQzZCOERoYV9qTjI1U3pENFR1QXJoMGdUczlSSi1GSmY2T1ViTzJvWDVnZll3ekFR?oc=5",
+      "source": "해사신문",
+      "published": "2026-09-08T05:13:45+00:00",
+      "summary": "해상풍력단지 ‘선박 충돌’ 실시간 감시한다…해수부, 통항안전 모니터링 첫 도입 해사신문",
+      "category": "renew"
+    },
+    {
+      "title": "[인천해상풍력 점검④] \"인허가 도구인가\"···협의체 파기 수용성 실종",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1FdldFX3ZuRTI5V1JId0JDUjJmZkhDa29xaF9pVTZjMnRGd1ZRRUxSZXNFZEV0a05ZS2JPSEpuenM2LU9ZQk5DM0o4NWp4SU5nZXU4VGlaaFFTaGJLZnRWYmdLa0ZGN1F4WU1ibF82cDc?oc=5",
+      "source": "인천투데이",
+      "published": "2026-09-08T08:01:45+00:00",
+      "summary": "[인천해상풍력 점검④] \"인허가 도구인가\"···협의체 파기 수용성 실종 인천투데이",
+      "category": "renew"
+    },
+    {
+      "title": "[특별기고] 18조원대 해상풍력 뜨는데 … 인천에는 ‘에너지공사’가 없다",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBocFpNR1lqQWFpOUI1TGZjS28tX1RlUWlYa2dqMy1rSWJiR0dkMG03MlJxbVk4dWNQYkVTay13TV9vb2xZOWFGSHhfNnhBZGJMdWtaOGRfdDFIQnBsblFXNlRYcjFmZnRtS3BVMzNzdw?oc=5",
+      "source": "인천뉴스",
+      "published": "2026-09-08T09:50:24+00:00",
+      "summary": "[특별기고] 18조원대 해상풍력 뜨는데 … 인천에는 ‘에너지공사’가 없다 인천뉴스",
+      "category": "renew"
+    },
+    {
+      "title": "해울이해상풍력발전, 동구종합사회복지관에 식료품 후원",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1Vb0kySW1CQlR1Qm9MTU54NmZBYWdlbjJfMUNzRWxHRFVtVlpXbWlidzNXTzZHZlNGeUpycEtWWGpyYkY3ZWM1VWRQTmhWQlNsRE9fZEdJMWJQSHlLdnN6M1doNmRlN2hpRkJBdw?oc=5",
+      "source": "ksilbo.co.kr",
+      "published": "2026-09-08T15:06:05+00:00",
+      "summary": "해울이해상풍력발전, 동구종합사회복지관에 식료품 후원 ksilbo.co.kr",
+      "category": "renew"
+    },
+    {
+      "title": "1만㎡ 이상 해상풍력사업은 '원상복구' 재원 미리 마련해야",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5hczB1N2VTakJuMW01VW1QbGdfMU5NTlp4WlpJbFFvbUUwem9HeVFhaE1DV05ZUjZHTXBFc0FFWXpkQ0k1RVV5TE9odE9WVVUyTTZhbHNYZkVHMjRTYUMwVA?oc=5",
+      "source": "아시아경제",
+      "published": "2026-09-08T04:42:15+00:00",
+      "summary": "1만㎡ 이상 해상풍력사업은 '원상복구' 재원 미리 마련해야 아시아경제",
+      "category": "renew"
+    },
+    {
+      "title": "㈜해울이해상풍력발전, 울산동구종합사회복지관에 ‘지역상생 건강먹거리 나눔’으로 이웃사랑 실천",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE12V2VXR080aG1IMFlNSjlKbFJNTEF2TWRJZmNVZkZpV25hTDdaTjczamxfbnBtRm44NUh4RWRRWFY3UUNiTThTZExQdXYyR0VER21qZlhhZkpST1FQMkNoNzhzTQ?oc=5",
+      "source": "경남도민뉴스",
+      "published": "2026-09-08T08:51:29+00:00",
+      "summary": "㈜해울이해상풍력발전, 울산동구종합사회복지관에 ‘지역상생 건강먹거리 나눔’으로 이웃사랑 실천 경남도민뉴스",
+      "category": "renew"
+    },
+    {
+      "title": "해상풍력단지 운영자가 주변 선박 통항 확인하며 안전관리",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBpS3Z5OHNMQWNJSWJGaFh5Um5KZjZyQ3A2OTBaY0JnVkpuRnF0OXZKXzRIdFRFQnp3dGdUcFBPeEJzWkNSQWYyUlBJT2RMY2xJMmc?oc=5",
+      "source": "매일경제 마켓",
+      "published": "2026-09-08T02:00:06+00:00",
+      "summary": "해상풍력단지 운영자가 주변 선박 통항 확인하며 안전관리 매일경제 마켓",
+      "category": "renew"
+    },
+    {
+      "title": "㈜해울이해상풍력발전, 동구 취약계층에 식료품",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE45Z1lkS2oxUi00cWlxd1BYaVlyUDhEWm9xc25fSmVhNWVxR3ptY09YSEdZX1ZyN3F4QW1KNVpuMTB5ejByTnRySUI1Qlg5VUotR0VCNlA4bGhLWkQ2a0RJT2c3YzcxT2NqWEllUXVn0gFyQVVfeXFMTWVuSDIyVkxybzQ5LXdzNy1PX0M5bGRMSnp3cTJVTHFUTWtnN1k0by1wVVBJZ1ZQaGRYa2dRQll4VUg0MXVLY0Y1UUsxbFRCMnpSMTBMZjZnZXY2VHpoc1pUWWVoWkF0OGJvQUpZUEllQ0RB?oc=5",
+      "source": "울산신문",
+      "published": "2026-09-08T11:10:00+00:00",
+      "summary": "㈜해울이해상풍력발전, 동구 취약계층에 식료품 울산신문",
+      "category": "renew"
+    },
+    {
+      "title": "“AI 전력수요에 폐쇄원전 다시 살린다”…美, 듀안 아놀드 재가동에 19억달러",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9lVjI3alJaNWE0bWxHV2N1Y0hZQUZwek1ISkNqeDNlUFpLaTZ0amhEQ2J4aDFnRWJUTGI5cGxoUEU5TFN5WVBGT244cUt0WHdaQnBSSjFWT1RWNE53UzhEeXR6dHl2UQ?oc=5",
+      "source": "인사이트N파워",
+      "published": "2026-09-08T15:42:10+00:00",
+      "summary": "“AI 전력수요에 폐쇄원전 다시 살린다”…美, 듀안 아놀드 재가동에 19억달러 인사이트N파워",
+      "category": "datacenter"
+    },
+    {
+      "title": "구글, 태양광·배터리 결합 프로젝트로 데이터센터 전력 공급",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE96Y2hySGNVRkM5NVVqeDdrdFhVYTNlUGQ0OW9wbnBwR1pLMm9LNTNpWXlUaEMzRnYteWVveUhEd0tPM3pJZ1BqUHBXSWZmVzJMREFuUzdrcHJaS3FtRjRCWlFIalFMVlNrVnc?oc=5",
+      "source": "AI타임스",
+      "published": "2026-09-08T02:15:00+00:00",
+      "summary": "구글, 태양광·배터리 결합 프로젝트로 데이터센터 전력 공급 AI타임스",
+      "category": "datacenter"
+    },
+    {
+      "title": "김성환 기후장관 \"AI 전력수요만 25~30GW↑…원전 필수 고려요소\"",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5ibHRXeXJSeHJqT3A5cjJhUFVZd2NZLVJzV0lrRnROUHNiZUQ0OUUtcGlqMzcxb2ZPcTlKalgyMHhrLXEyc3hwYjJLd2xjc0U?oc=5",
+      "source": "v.daum.net",
+      "published": "2026-09-08T07:32:44+00:00",
+      "summary": "김성환 기후장관 \"AI 전력수요만 25~30GW↑…원전 필수 고려요소\" v.daum.net",
+      "category": "datacenter"
+    },
+    {
+      "title": "\"밀린 전기요금 3조 원 못 받는다\"… 中 공기업, 파키스탄 전력망 인수서 '전격 철수'",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQZEFzWktPQU4tSWVpZXVRY0RWUFA5b2Q0aEJVQXFXakVtbUxfRUQ3eW9WVmlZbFM5TllfY3pUTGtrcHFGbXdNY1MyN05CaXJyR0hzSGJ6ZXNPRV93Zm83OVJvRnhYSzB2MkdmYTF6cno4NFN0RFZQV3VxeDJYSURLZlBfcDdkSXQy?oc=5",
+      "source": "글로벌이코노믹",
+      "published": "2026-09-08T21:45:00+00:00",
+      "summary": "\"밀린 전기요금 3조 원 못 받는다\"… 中 공기업, 파키스탄 전력망 인수서 '전격 철수' 글로벌이코노믹",
+      "category": "policy"
+    },
+    {
+      "title": "[ESS 확대, 비용의 그늘] ESS 늘 때마다 15년 정산부담…전기요금 해법은",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1aMUN6bXU0ZUd1WHh4OWV0MndwUU9lQVViVmlaaEhNVXd1MTJhNkUwT0hESGl1WHdTMGhVcjNEaXVHWHVuZVpGLUhxQWRjYUJEYUppbHNObUw4UdIBWEFVX3lxTFBWMWtXU1RjcndpcWlUUXlpeDlNdTZaS2pCRVRjWVpKbXBuTTVWX09DZDBGVlB2V1BaSWZyYnBEYTNMSkZHRUF0OEhMNnNGUTdOd3U0cnEwVnU?oc=5",
+      "source": "ajunews.com",
+      "published": "2026-09-08T09:00:00+00:00",
+      "summary": "[ESS 확대, 비용의 그늘] ESS 늘 때마다 15년 정산부담…전기요금 해법은 ajunews.com",
+      "category": "policy"
+    },
+    {
+      "title": "[산업용 전기요금 차등안] \"인하 효과 부족\" 석유화학 위기 여전…구조조정 관건 : 네이버 블로그",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNd254OFVWY0tlaVpEaXY2cUtTWDBqTzl0NFVUbkJBcWJ3N1gta0JjOVJTdVJLUkZQRTBUT2pGTHl2VS1mRUtqbTBOMy1rd0padmREVnBWRm15SC1BeXZDSzlnczlUM2VGRTlrMzRZOHRzWlBHaDhvajJhVzlVWFdtbnhmUUUtdXBnUzdFZ2JWSQ?oc=5",
+      "source": "Naver Blog",
+      "published": "2026-09-08T08:44:18+00:00",
+      "summary": "[산업용 전기요금 차등안] \"인하 효과 부족\" 석유화학 위기 여전…구조조정 관건 : 네이버 블로그 Naver Blog",
+      "category": "policy"
+    },
+    {
+      "title": "한전, 삼성·SK하이닉스에 5년치 전기료 25조 선납 제안...왜 지금?",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5FZjZfZExqZThiSkNHR1RWa0lLd2VyV1ZkZWVMZHhJX2ZMRmxvWDAtYUJpLVltZmRlQms4dzVJdl9VcU0tbTJKZEt2S29lQmlsX256QXNoVEJ5TGlVRXdjcXdqRGRsbmxSYVJv?oc=5",
+      "source": "산학뉴스",
+      "published": "2026-09-08T05:32:09+00:00",
+      "summary": "한전, 삼성·SK하이닉스에 5년치 전기료 25조 선납 제안...왜 지금? 산학뉴스",
+      "category": "policy"
+    },
+    {
+      "title": "“車-전력기기-문화 시장 잡아라”… K기업 ‘15억명 인도’ 몰려간다",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9sTkZjMXJiUWdRaEVZOEpQMmhfdGctVkljR3REX1dXRGg3Z2FsNU4tT3ZaaE82Z0pMZHVoQWpidF9uYV83cjZqOFlMcUFsYmZvY294c2NCMzQ4TnlESC12ZW11RlJQYjE4YmpHNHc4YVpMM1ZHbXfSAWZBVV95cUxQZ0NXNTFsWHdKVi03WVE1cEFLYzFPaGNPTDJBU3llbkpYV1M2aU5WZ0pic3NVOTBEbThjbEh4eGxPU1ZSNkgzS2taUm1jbWpFSENpa2wtT1VsVVRPVS10N1QzM0NESnc?oc=5",
+      "source": "동아일보",
+      "published": "2026-09-08T15:30:00+00:00",
+      "summary": "“車-전력기기-문화 시장 잡아라”… K기업 ‘15억명 인도’ 몰려간다 동아일보",
+      "category": "industry"
+    },
+    {
+      "title": "AI 데이터센터 투자에 전력기기 수요 확대…중소 제조사, 생산능력 확보",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFA5QzYzQjEtYmY0QXVINDgtRWxMeHVERnNNeXlISElVSHJJS0tBTlREZl9MZnVreThCTjU5aHB6N0xNa2xibWlFaklwUlcxQ3hocHRVUTZ5QmRPejdrNkpkSFl0TGR3WVdBdldDNUln?oc=5",
+      "source": "폴리뉴스 Polinews",
+      "published": "2026-09-08T08:03:23+00:00",
+      "summary": "AI 데이터센터 투자에 전력기기 수요 확대…중소 제조사, 생산능력 확보 폴리뉴스 Polinews",
+      "category": "industry"
+    },
+    {
+      "title": "HD현대일렉, 美 AI 훈풍에 전력기기 미리 쌓는다",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBIbVNZUzB3dTNiOEU3YUZ6dm5Od0hGRDNBa0owZ3NoTDlBaWFVRm1pSFY4M3llOXk4MVFlZmhuOXpocU9hRE5UdzlmdXdfZw?oc=5",
+      "source": "dt.co.kr",
+      "published": "2026-09-08T07:24:05+00:00",
+      "summary": "HD현대일렉, 美 AI 훈풍에 전력기기 미리 쌓는다 dt.co.kr",
+      "category": "industry"
+    },
+    {
+      "title": "현대차 E-GMP 절연캡 융착 사고, 공공 급속충전기로 확산",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5nRGNIMzctbVVVcS1sT0VyNkFmcHk2VUlqUGk3Y1YxRzF1YUwtYndNcExYeHhoSHkxTEgyRVZEaEdlbTFvZm8zc3hsTGh3X1FfQlBHQkN1QmkxOFBvLXlGN3lFd0lZU0hDUG1HN9IBcEFVX3lxTFA1MF9IUnYzNVkyTDlfejRVbkY0OE5GVldDdldKWEhfOEFpZS1pY2RpSUJLM1JIR25JY0NENVV0allzZlZGb1BJenJyeFBicW42TktYU1ZfZTJqU215VGJjUDRNUm1tMTZOaklWNzZXNDU?oc=5",
+      "source": "전기신문",
+      "published": "2026-09-08T22:00:00+00:00",
+      "summary": "현대차 E-GMP 절연캡 융착 사고, 공공 급속충전기로 확산 전기신문",
+      "category": "ev"
+    },
+    {
+      "title": "경기과학기술대, 전기차 충전인프라 행사 개최…130여명 참석",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1ESEp5VGlFYmlIU2ZxdGtzSVZ5ZXBwN1FLXzZVeGlXcE82a3dodVhHS3lwMVJiZEl1N2tDRHI0dU9VR2I0YXlhSTFsS3BpQVBKd1lSZUhrak5VS3FELUlYN09uWV8teEE?oc=5",
+      "source": "kyosu.net",
+      "published": "2026-09-08T07:56:27+00:00",
+      "summary": "경기과학기술대, 전기차 충전인프라 행사 개최…130여명 참석 kyosu.net",
+      "category": "ev"
+    },
+    {
+      "title": "전기차 충전 54만기…이제는 ‘대수’보다 이용률",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9EVnd4aWl4WkhqUnNxLTE4Umh1NmN1QUtVYWlNSXZ4dTBRRnJKUXFVRWpVMFBzLTdTOEdsM252VnhLRXVMTm9QSVdYajRFY0JDcVBTMnU5SWUwVEtaV3hLaQ?oc=5",
+      "source": "메트로신문",
+      "published": "2026-09-08T06:09:27+00:00",
+      "summary": "전기차 충전 54만기…이제는 ‘대수’보다 이용률 메트로신문",
+      "category": "ev"
+    },
+    {
+      "title": "봄·가을 애물단지 태양광, 전기차 충전 대안으로 떠올라",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9hek1lV00xNnZGYTdMVHJnclhFQ3FSVEtsWktTLUk5X3VyTWc4RnFUdU5JUURVRVRnWkY4UkR0bndkbjJYNnllcWFpOFFXTkk?oc=5",
+      "source": "v.daum.net",
+      "published": "2026-09-08T08:48:37+00:00",
+      "summary": "봄·가을 애물단지 태양광, 전기차 충전 대안으로 떠올라 v.daum.net",
+      "category": "ev"
+    },
+    {
+      "title": "포스코이앤씨, 더샵 에너지 절약 챌린지 통해 8천500kwh 전력 절감",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5XcUsxdzJpUk9IbTB3V3drYVdzelFBNWpwV3kzNk03LTVxTmxURF9qOXpOSzA0eUkzX1YtRUhDdWpuUWJlWTNYVkNYX0FjcGJxb1hUVGxGNnVWVzBNZVVsN2lfZ09ZazM5QWtYbVBXZw?oc=5",
+      "source": "기호일보",
+      "published": "2026-09-08T19:32:43+00:00",
+      "summary": "포스코이앤씨, 더샵 에너지 절약 챌린지 통해 8천500kwh 전력 절감 기호일보",
+      "category": "market"
+    },
+    {
+      "title": "알파벳(GOOGL)이 PG&E의 SHARE 가상 발전소 실험에 전액 자금을 지원함에 따라 투자자들은 어떻게 반응할까",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNVFJTME1md29HaDVZRW1xV2RFZWhxSTJ4ZTJpLS1FLVROX0FxNXhJWXE2SkhqMmZxVzRiUW1HQWpiNEVFWUJuUlVCUjNDUDEwRFN4bmIxSkpvM2diQ2Q0Q1VIckFjTHFxTUxQVU5TSW51Wm8wRi1pZ0VuSDlzWV9DdVR2bDNTZnczczVTNTFfY3ExQdIBkgFBVV95cUxNVFJTME1md29HaDVZRW1xV2RFZWhxSTJ4ZTJpLS1FLVROX0FxNXhJWXE2SkhqMmZxVzRiUW1HQWpiNEVFWUJuUlVCUjNDUDEwRFN4bmIxSkpvM2diQ2Q0Q1VIckFjTHFxTUxQVU5TSW51Wm8wRi1pZ0VuSDlzWV9DdVR2bDNTZnczczVTNTFfY3ExQQ?oc=5",
+      "source": "simplywall.st",
+      "published": "2026-09-08T05:37:03+00:00",
+      "summary": "알파벳(GOOGL)이 PG&E의 SHARE 가상 발전소 실험에 전액 자금을 지원함에 따라 투자자들은 어떻게 반응할까 simplywall.st",
+      "category": "market"
+    },
+    {
+      "title": "전력거래소, 빛가람 페스티벌 참여…전남광주 경제 활성화 ‘앞장’",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5iOWJHME9WUVVCSTlYbmpfSXhKdHk1UTlGOFJxMUtlSXFETkNJaXBTaDJHX050cVdJRGZBSWlqSDFHLThOTGpBZFlTOElpQ0dpTG5KbU5GMVBnWC14U0JFdFN0NmtUdTBuQnBqc9IBcEFVX3lxTE9kcmdpcXVULUpaaTd3NlRWR1UtMEJ2X3E0c01SaVdhaWxGeGhVVC1USHlBNUlDdjRQUlFpNGgyZFF1TktHZzlEYlpDdUo2UWhiTFlhYUtfajhBVlk4SGh2QkEybFZRN0hQOWJoREhTQmw?oc=5",
+      "source": "에너지플랫폼뉴스",
+      "published": "2026-09-07T01:18:52+00:00",
+      "summary": "전력거래소, 빛가람 페스티벌 참여…전남광주 경제 활성화 ‘앞장’ 에너지플랫폼뉴스",
+      "category": "market"
+    },
+    {
+      "title": "전력거래소, 제12회 빛가람페스티벌…지역사회와 상생 ‘공감’",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5FS1BzanZlWVhGUy1GZFNHMDZ2RVBFQl9EZnZCNk5tSUJXV3A0T0FzTTM2dDY4TnRPY1V0YkhoeHZUcWZrNXIzeEhEZ2VfYVN2WlhoOEFuZUdORG9DZF92UDZVUThMdTjSAWtBVV95cUxOaGpjWWsyaEhuRzdyVEhfd01TLXlGdDVBcHRHSU8yY2ljUVMxQjMxVVlEdnB0UlNjSE5xVmJqSVNFeUY2MmphWEVRX2Nkc0g1TkxvQmVFbWNOcnRXUTlwOTNyTkFSMkY2ZmtzOA?oc=5",
+      "source": "한국원자력신문",
+      "published": "2026-09-07T08:21:07+00:00",
+      "summary": "전력거래소, 제12회 빛가람페스티벌…지역사회와 상생 ‘공감’ 한국원자력신문",
+      "category": "market"
+    },
+    {
+      "title": "화웨이, 전력망 디지털 전환 핵심으로 ‘450MHz LTE’ 부각",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5yQks0Nk9Ib3YxVmxORV9NNFY3Y1BtTUFCZkNPVjBKMDFvN1JQUzVCYWRYTzZpempHWGJFeTV3YTlfSWhjaGtWeEs2V1FtaG5OSDQ2YUJpUnVTWGFERTJJb09pUTZ0Q2dLalFvSw?oc=5",
+      "source": "데일리비즈온",
+      "published": "2026-01-23T08:00:00+00:00",
+      "summary": "화웨이, 전력망 디지털 전환 핵심으로 ‘450MHz LTE’ 부각 데일리비즈온",
+      "category": "ict"
+    },
+    {
+      "title": "[오늘장 탑픽] AI 데이터센터發 전력난…전력설비주 장기 성장하나",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5SUVZDa0I3WWw0N1NDZVR5RUUyeVVqM2NrX1h1eFR5NzlFRDR3bWhodDRaQVN0RmU5b3MwRjJfREk0SHRhNm1oNFhweWF6ZUt3clRz0gFYQVVfeXFMT1dhNW81alBWajlvWmlid0hjM2FqbzdxVXB5Z0tTa25qRDFGRVRIWGl2aHhRRXYyWlRkazVGcHB6OVRHZWZTM2Z5RjFRN3FieUNVb2lEQThrNQ?oc=5",
+      "source": "SBS Biz",
+      "published": "2026-09-09T00:32:00+00:00",
+      "summary": "[오늘장 탑픽] AI 데이터센터發 전력난…전력설비주 장기 성장하나 SBS Biz",
+      "category": "supply"
+    },
+    {
+      "title": "[ISSUE] 반도체·AI 전력난, 고속도로가 해법 될까",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE8zMkZFc25OOEdIa2dSc0F4R1NvS2RGNFBGaDc4dlRhY1pqZXJTWVk0MUJIYUdlQUlpZ0dqS2lzeHozR2pXcjgxNHpLRzZ3dG1KU1p3?oc=5",
+      "source": "산업종합저널",
+      "published": "2026-09-09T00:38:28+00:00",
+      "summary": "[ISSUE] 반도체·AI 전력난, 고속도로가 해법 될까 산업종합저널",
+      "category": "supply"
+    },
+    {
+      "title": "美 AI 전력난 해법 부상, 두산퓨얼셀 목표價 상향",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5NSVhwVXItSVNoUXRVNEVsVzR0WlpDa0MxbGdQOXE3aF9PRlpUNUNLRkJsWVNGOThqQXdhM3cza0Q3c1ZEbkR0VE9uVDRPZnpuRm1F?oc=5",
+      "source": "경제타임스",
+      "published": "2026-09-09T00:47:05+00:00",
+      "summary": "美 AI 전력난 해법 부상, 두산퓨얼셀 목표價 상향 경제타임스",
+      "category": "supply"
+    },
+    {
+      "title": "범한퓨얼셀 상한가·두산퓨얼셀 9%↑…AI 전력난에 뜬 SOFC",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1LVW1aSG11OGI2NVdlejJyRVlBaWZXUldqeG12MXItRjgyUTE2YWZpcGU2VmdYTGJ6MFR3SGhEZGhwamhvekxRd29Cbl9aUi0yeUo1dFJxd3VTQ2Vna2pobTFTYUpKcThVTEdhUUZyNjd5djTSAXdBVV95cUxPV1JFSWdpbnk5ajNaNTFaeEt6M0ZDd2g4RHlLWWNQYzBXYUNBVjMtRGJxMzVSMmlzdFpaVlMtRFM5TEtSWTgxa2labEdLYnZEVUx0WVZTeUE4c2h5TWhhakJ2ZTVzcVFWMGhfa0oxXzVWS2ZzcmVxdw?oc=5",
+      "source": "핀포인트뉴스",
+      "published": "2026-09-09T00:15:04+00:00",
+      "summary": "범한퓨얼셀 상한가·두산퓨얼셀 9%↑…AI 전력난에 뜬 SOFC 핀포인트뉴스",
+      "category": "supply"
+    },
+    {
+      "title": "美 AI 전력난에 ‘伊 터빈 명가’ 가세···두산 가스터빈 영향은?",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFAxY2VTSXBBX1VqaGJuRlpDbThRY29TTDhCNEFLdEZHTGxiTlM3X29mM0l1bnd3MnJFc1BsSm5qYTU3UDVGUVpTb0gyZmF0TmVYczlnVWo2SHJxVGpM?oc=5",
+      "source": "supple.kr",
+      "published": "2026-09-08T23:43:08+00:00",
+      "summary": "美 AI 전력난에 ‘伊 터빈 명가’ 가세···두산 가스터빈 영향은? supple.kr",
+      "category": "supply"
+    },
+    {
+      "title": "[특징주] 가스터빈 품귀에 연료전지 뜬다…AI 전력난에 범한·두산퓨얼셀 '불기둥'",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1RdzFoUURiWDdwbGJYV0dJSkxXc0o0aDVMWll4enloNGdUTHZ6Rm5QMlFnR2RwOW1EajNXaXFLZjhCMlY0bDFSd3I1U21CYUliQktQTDJmdG1MTExqQlBsRGotN2xQSl93RjBYNjd0eS12WG5UQ255NA?oc=5",
+      "source": "Nate News",
+      "published": "2026-09-09T00:53:00+00:00",
+      "summary": "[특징주] 가스터빈 품귀에 연료전지 뜬다…AI 전력난에 범한·두산퓨얼셀 '불기둥' Nate News",
+      "category": "supply"
+    },
+    {
+      "title": "호남→수도권 고압 송전선로 통과… 충청권 주민들 거센 반발",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBSZlFTUGZJNDJpQWw5UkpUUjAwVlhLeGo2d3pKN2pjUU5naWVJUzA4VksxT0ZVNHktQnUwMUZ3Q1JvekFtaGxWTnhXWFd1eHFWb2E5cF9IMlpTbUY2ZWUxSHY3VQ?oc=5",
+      "source": "쿠키뉴스",
+      "published": "2026-09-08T19:04:23+00:00",
+      "summary": "호남→수도권 고압 송전선로 통과… 충청권 주민들 거센 반발 쿠키뉴스",
+      "category": "grid"
+    },
+    {
+      "title": "3년 공전한 변전소, 주민 직접 설득하자 2개월 만에 풀렸다",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE8zbHQwVHF4eHJ2Y1FjWEtndmRSYTZJUGh6VzZ1c25udmVnZWk4eDlXTFB3bW9VNlBwdkEwVTRvM2stVC1IS2VudHZMSThramZRdTJ6VGZ3?oc=5",
+      "source": "중앙일보",
+      "published": "2026-09-07T06:31:13+00:00",
+      "summary": "3년 공전한 변전소, 주민 직접 설득하자 2개월 만에 풀렸다 중앙일보",
+      "category": "grid"
+    },
+    {
+      "title": "현대건설 원전 파트너 美 홀텍, IPO로 최대 9억 달러 조달 추진",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1YeXI2UlNWUExQU2cxVHppVXIwaTdPQkwzWWNENTNINzZUaWFaVkk4TGxpU3dMSFF6WUtESW9HeWFudnI4QzZocW0yVWRMVDVzTGY2aXJWSC1rLUVzN3RnbHNkVQ?oc=5",
+      "source": "더구루",
+      "published": "2026-09-08T23:02:57+00:00",
+      "summary": "현대건설 원전 파트너 美 홀텍, IPO로 최대 9억 달러 조달 추진 더구루",
+      "category": "nuclear"
+    },
+    {
+      "title": "[기업이슈] 미 원전 건설 기대에 한전기술 등 원전주 급등",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE92Nkc3ZjlRMmlYZ3JvWkphTTFlaUJRSXBTTWVvdDlvMU1XQ1JCd0hOWjBSS29md2l6YW52SDRpVGl0MTVhZWlKRW9pWDI5eGs?oc=5",
+      "source": "v.daum.net",
+      "published": "2026-09-08T23:25:08+00:00",
+      "summary": "[기업이슈] 미 원전 건설 기대에 한전기술 등 원전주 급등 v.daum.net",
+      "category": "nuclear"
+    },
+    {
+      "title": "(설명자료)대미투자 프로젝트 첫 투자금 송금 규모·시기,원전 투자 한미간 협력 관련 구체적 사항은 확정된 바 없습니다",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1pZzMwdl9Sc3hBSWZ6UlMxOGpVZk1sVkZ0LUxiaEhJcTJtS3lCUm5aS3FzNXdsNDFUb1VrRllkdFkzR2ZPRmxvbDNUV2tPeW1zN0QxdWY1RVdFZktyUmhOaEk5V1p3aFRiemQ4NkVuYw?oc=5",
+      "source": "대한민국 정책브리핑",
+      "published": "2026-09-09T00:56:15+00:00",
+      "summary": "(설명자료)대미투자 프로젝트 첫 투자금 송금 규모·시기,원전 투자 한미간 협력 관련 구체적 사항은 확정된 바 없습니다 대한민국 정책브리핑",
+      "category": "nuclear"
+    },
+    {
+      "title": "원전 소재 5개 지자체장 경주 집결…발전소 주변 지원사업 개선안 등 공동 논의",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNT09jUWxhUzhTVXpmZXhCRGlrMjU0WFdhOFVUWEFPTDd0UFB4UzRRZUdpc1A4N1BibUdkd2Z4Q254ZURnTlZMMXkzVUN2Z0gzVndzbV9jaWVMNF9BS2F1ZV9mdmVoZEw5UEVZOFhkOTI2SG9YV2c0UU9oNzhwb3liQjJCc0N1N3l2eEtF?oc=5",
+      "source": "글로벌이코노믹",
+      "published": "2026-09-08T23:51:49+00:00",
+      "summary": "원전 소재 5개 지자체장 경주 집결…발전소 주변 지원사업 개선안 등 공동 논의 글로벌이코노믹",
+      "category": "nuclear"
+    },
+    {
+      "title": "소송 벌였던 한수원-웨스팅하우스, 美 ‘원전 8기 건설’ 한배 탄다",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9qRGtpbVBNZ0x2NmxkZ0ZCVFBydzBBUVE4WFUtVmIxdjh4LW50MEl1Qjg1NmdMeHRGcmZSWjc0LVRZV1ZSUUlQbkJILUdGT1B3aUpId0RiOFpwc3UtM1FRX2lkZ1VJeXZfTDhqWGxVX2pLSHFCb3fSAWZBVV95cUxPcGpHOWZoZERMS2hpX1RzOFNPTzNOZkkwTnQzMlBvbDFTX19OSTRUYkdqZFJIWWhJM0hjeHNZUVZyakhyc2xBcV9lR1FYWG5GS3E2SlI2TzloaXoyVVQzeFBCS09CWmc?oc=5",
+      "source": "동아일보",
+      "published": "2026-09-08T19:30:00+00:00",
+      "summary": "소송 벌였던 한수원-웨스팅하우스, 美 ‘원전 8기 건설’ 한배 탄다 동아일보",
+      "category": "nuclear"
+    },
+    {
+      "title": "대미투자 원전8기 건설 '조율'..지분인수는 협상중 [여의도 Pick!]",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE94SGVHVzdPVUhtNk5sUGxfaWZZV2lnYjNHbnJmMTJNVWFtVUVHSjJqXzhZOEFpS3BnOGxsOFRJNU1LLUxyT05kVlVod1lrQVpBcUV4cXlrSW10clFQeVpHVVo1Umw?oc=5",
+      "source": "MTN 머니투데이방송",
+      "published": "2026-09-08T23:13:50+00:00",
+      "summary": "대미투자 원전8기 건설 '조율'..지분인수는 협상중 [여의도 Pick!] MTN 머니투데이방송",
+      "category": "nuclear"
+    },
+    {
+      "title": "미국 정부 '폐쇄 원전 재가동' 프로젝트 지원 이어져, 신규 원자로 건설에 한계 부각",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBuX0lNS2lXYXFjbFVYLWVJQjZlb2d0WV84U2dUbV82dFdiM1U4dUVtSDBVY2dLVHJxWnU5eWpRR2F3a19pbGgycVVNNkZSZnBza1BMTkptekJwNDFzZy1vTGNCRV9iLW13TV9TM1R5RDdDSTQ?oc=5",
+      "source": "비즈니스포스트",
+      "published": "2026-09-09T00:45:14+00:00",
+      "summary": "미국 정부 '폐쇄 원전 재가동' 프로젝트 지원 이어져, 신규 원자로 건설에 한계 부각 비즈니스포스트",
+      "category": "nuclear"
+    },
+    {
+      "title": "바다 위 원전 달린다…美 블루코어, 해상 SMR 5천만 달러 유치",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9NcTN6N0d0NWFBVGxSZFFrS2oyM0NxQ1ktemRsR19UTmt3X1h3WE02SzFseGRQZGZRMlNGTWxMYXpKb2hTSHE0ajB6TkpGYmtPc0lxSnhaMjdBLVo4UGZZYTBrNDQ?oc=5",
+      "source": "에너지안전신문",
+      "published": "2026-09-08T21:03:17+00:00",
+      "summary": "바다 위 원전 달린다…美 블루코어, 해상 SMR 5천만 달러 유치 에너지안전신문",
+      "category": "nuclear"
+    },
+    {
+      "title": "해울이해상풍력, 울산 어린이와 미래 에너지 공감 넓힌다",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBwYWhHU3lHTE5SLXB1THJWSzRfWXFxZkRfWl9oSU93b09ub3MzUUdlalNyODAyUzNPVHBUN2dZR3J6aVlvU3hfTWYwN0FvVVRLZmFOdVNzSjNBR0pTajBPRUlsaw?oc=5",
+      "source": "국토일보",
+      "published": "2026-09-09T00:27:15+00:00",
+      "summary": "해울이해상풍력, 울산 어린이와 미래 에너지 공감 넓힌다 국토일보",
+      "category": "renew"
+    },
+    {
+      "title": "해상풍력단지 진입 선박 자동 감지…충돌 위험 실시간 경보",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFA0b1dLZ3VwUUxrRlU3cHNaYWtiMUg3VWFMMW5NNXFLR1V5SmxmdkpjemxyaGt6aVpnejJESmdMZ2ZjOG9GaVAtRmxDRlBZWnp2M25FQWpKYw?oc=5",
+      "source": "해양레저신문",
+      "published": "2026-09-08T05:18:00+00:00",
+      "summary": "해상풍력단지 진입 선박 자동 감지…충돌 위험 실시간 경보 해양레저신문",
+      "category": "renew"
+    },
+    {
+      "title": "“AI 전력수요·재생에너지 변동성 대응…LNG 역할 재정립해야”",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5wb3B3QnkxMUgwbDZYOVZYUnRhOXMxNWJ4ZFQ0bmVjVnlmOGlUUlNrX1F0czk4Q2RBQ05vUi02eE5pRThRR2RPS3ZRNm4xMUlycHpOeW5jWUVPeFNpc1dGX29aV29YdEktc0lpQ0txcl9adw?oc=5",
+      "source": "에너지데일리",
+      "published": "2026-09-09T00:00:00+00:00",
+      "summary": "“AI 전력수요·재생에너지 변동성 대응…LNG 역할 재정립해야” 에너지데일리",
+      "category": "datacenter"
+    },
+    {
+      "title": "가온전선, AI 전력 수요 커지는 캐나다 첫 진출…공공 전력망 공략",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9rZEVmRWU3M1hHN093R2pxVHMtdW5ablM5M3ZEall3am1GOEZhSVdSRW1adVlYbVZPM0tBUlRoQVBVTUxZeDEwZEVWN0ZJQzdEYk1UTzl3?oc=5",
+      "source": "지디넷코리아",
+      "published": "2026-09-09T00:18:19+00:00",
+      "summary": "가온전선, AI 전력 수요 커지는 캐나다 첫 진출…공공 전력망 공략 지디넷코리아",
+      "category": "datacenter"
+    },
+    {
+      "title": "AI 데이터센터 전력 먹어치우자…전기장비주 매수 몰리며 ‘불기둥’",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE84cVk5MzdyUTlFeWtVU0JsTVRKYUJaa203M2QxanotSUQxeG1EVDBRWDdoZlBRNUtZS3htWTJxMTM1aUxNUXdBdjFvYzdMR1B4Rmpnc1IxUDQxaXpEcGFsMG10YUJJZmN2NkxRZXRRd0xsUTBHT1FN0gF3QVVfeXFMTzhxWTkzN3JROUV5a1VTQmxNVEphQlprbTczZDFqei1JRDF4bURUMFFYN2hmUFE1S1lLeG1ZMnExMzVpTE1Rd0F2MW9jN0xHUHhGamdzUjFQNDFpekRwYWwwbXRhQklmY3Y2TFFldFF3TGxRMEdPUU0?oc=5",
+      "source": "핀포인트뉴스",
+      "published": "2026-09-09T00:14:35+00:00",
+      "summary": "AI 데이터센터 전력 먹어치우자…전기장비주 매수 몰리며 ‘불기둥’ 핀포인트뉴스",
+      "category": "datacenter"
+    },
+    {
+      "title": "한수원 노동조합, 서남권 반도체 클러스터 전력공급 해법 국회서 찾는다",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9wUF9qYzd3LTVHajlzUElkczI3bVFxV3RSVUplWWNocExTZEZ0UUFvLUdmalZva2FTUHpSeC1DaDZzOFJRaWtwX1BiSVRpb1I3Z1Y5d2YtcktRdmtxQk1xZW0xVms?oc=5",
+      "source": "에너지안전신문",
+      "published": "2026-09-08T23:16:13+00:00",
+      "summary": "한수원 노동조합, 서남권 반도체 클러스터 전력공급 해법 국회서 찾는다 에너지안전신문",
+      "category": "mega"
+    },
+    {
+      "title": "전기요금 부담 제주 양식장, 스마트양식 클러스터 기대",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9jUnhQMEM3cTNxMzU0blB5aU9BV3hZN21pbi0wZGRROUQ3YnZweFVjYk9PZDVXU0lwUHNFdWdlVW1OUFYxN3VqX2lUbjdFS242S19yOUFUQ0dHT2lFVlBZYnVUNWttNVFWOU9CUHZwWQ?oc=5",
+      "source": "제주도민일보",
+      "published": "2026-09-09T00:40:48+00:00",
+      "summary": "전기요금 부담 제주 양식장, 스마트양식 클러스터 기대 제주도민일보",
+      "category": "policy"
+    },
+    {
+      "title": "[아주경제 오늘의 뉴스 종합] 비용 내는 한전도 ESS 계약단가 몰라…전기요금 압력 우려 外",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9vV0dCcDVrbmFkbXczNm93dThnWjl5aGpDdnA1ZWhuRlZaNXVSTU4yM0tHWUFkLU9lT3lQbHhCSDNjQ2l3a2lEQy1LRkVGV3Y2YnBoZzIwNjZMZ9IBWEFVX3lxTFBKLXE0UW9DbUdBMFB1LXEzeWtoN2d6UmdzT0hScXNCT0c2eWpuRnhUQXZwYXViRzl6N01YNV9MS2hvbUhvNUNxUXpuQ0p1ZmxOcWRCNUVUMW8?oc=5",
+      "source": "아주경제",
+      "published": "2026-09-08T13:00:00+00:00",
+      "summary": "[아주경제 오늘의 뉴스 종합] 비용 내는 한전도 ESS 계약단가 몰라…전기요금 압력 우려 外 아주경제",
+      "category": "policy"
+    },
+    {
+      "title": "[리포트 브리핑]비츠로테크, '전력기기 수직계열화로 글로벌 시장 공략' Not Rated - 한국투자증권",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFB1REpSZjhNMUVxRTYxa3MxM1V3ZjV1X0NsdkkzUWp5VWFfVGJfd213QUh3MGdROGVobmZ0R1dVWDJfOHpjS0luU3lfSloxZDN4dmFwYmZVRFhnSmY3?oc=5",
+      "source": "뉴스핌",
+      "published": "2026-09-08T23:32:00+00:00",
+      "summary": "[리포트 브리핑]비츠로테크, '전력기기 수직계열화로 글로벌 시장 공략' Not Rated - 한국투자증권 뉴스핌",
+      "category": "industry"
+    },
+    {
+      "title": "다른 성적표…국내 전력기기 3사, 최근 6개월 수익률 최대 68%p 격차",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE0zQ3J5Vk40MDRtbXpGcXJteWx2TXFXVEpCUVN3YVVIZ1EtWjc4MWRXMXJnb0FrUF8tMlNyNVNGWkVoV0JUQ2ZqT01KYmhtY1NETFNfNlJUWmRHcEhlbnFRbg?oc=5",
+      "source": "메트로신문",
+      "published": "2026-09-08T22:57:54+00:00",
+      "summary": "다른 성적표…국내 전력기기 3사, 최근 6개월 수익률 최대 68%p 격차 메트로신문",
+      "category": "industry"
+    },
+    {
+      "title": "전력거래소, '제12회 빛가람 페스티벌' 동참⋯전남광주 지역상생 보탬",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFByektDYmZMdmVLbWViZ0tCWGRReXBuRXNvWDEyeW05bDVQYmY3QWVZeEpkcE1FNW1GeTdwcnAtYmN6MWtsMVBpSlZKWQ?oc=5",
+      "source": "v.daum.net",
+      "published": "2026-09-07T05:56:04+00:00",
+      "summary": "전력거래소, '제12회 빛가람 페스티벌' 동참⋯전남광주 지역상생 보탬 v.daum.net",
+      "category": "market"
+    }
+  ],
+  "mock": false
+}

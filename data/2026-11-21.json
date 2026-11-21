@@ -1,0 +1,558 @@
+{
+  "date": "2026-11-21",
+  "articles": [
+    {
+      "title": "AI 데이터센터 전력난, 초고온 암반 지열이 돌파구 될 수 있을까",
+      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE5JOHVUYWdrdzZ4V21oWlgxNG4tSlZfX2ViZ3hpc3NudjlZVE13bzExbkJ6LUtTZ3ZacUllZHdGU0JhU1R2OVREWlZn?oc=5",
+      "source": "얼리어답터뉴스",
+      "published": "2026-11-20T21:40:14+00:00",
+      "summary": "AI 데이터센터 전력난, 초고온 암반 지열이 돌파구 될 수 있을까 얼리어답터뉴스",
+      "category": "supply"
+    },
+    {
+      "title": "SSEN Transmission, 사우스 포마틴 400kV 변전소 부지로 엘런 남쪽 티퍼티 선정",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBrYmRyRnJqd3JRVWloanNVMG9OUGswck96UnFKaFBtdVZWaks4ZlhFX3RpcFJxWHZzeXZKdHE4UUNGbG9RdFJOZFVwSGlQdzlfX0NMN1ZDQjhoLTNlUVRlRFk1NDdNeVdD?oc=5",
+      "source": "www.2news.co.kr",
+      "published": "2026-11-20T22:06:02+00:00",
+      "summary": "SSEN Transmission, 사우스 포마틴 400kV 변전소 부지로 엘런 남쪽 티퍼티 선정 www.2news.co.kr",
+      "category": "grid"
+    },
+    {
+      "title": "싱가포르 전력망 확충에 수주 잇따르는 K전선···시장 공략 속도",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9SU1Azdl93SWdkbHpCQWpnWF9oRFVtQjE0aU5vd21rSGhBak83ZnJuQ19iUnNqb21wVEo0d3NKYTB5TERESG5pclFNSThhZnRmS1RjeURQZmMwNS1QXzJXU1lzRWZnNl9JQ2RxaktIM1FDd9IBdkFVX3lxTE0yNW9aY0t3Mjd4OFRnMjN5eldPYXpuNFlEZkEybFQ5THRjbGlRSVZ5WlhYNzdrejQ1TU9KYndycDFjMFhiMGdYcktHanR0dTg4NFlsS0otTEtWTHRuTG1xUF9iX1F4UHR5c25yU1Z5ajJ2akRsYkE?oc=5",
+      "source": "시사저널e",
+      "published": "2026-11-20T06:56:29+00:00",
+      "summary": "싱가포르 전력망 확충에 수주 잇따르는 K전선···시장 공략 속도 시사저널e",
+      "category": "grid"
+    },
+    {
+      "title": "평창 변전소서 20대 작업자 감전…화재·사고 잇따라",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBBQVg4MDVpTjVXa2hpVkpiQzBLNTh2eV9mcmR4NWN1eW1iTUVwaTdfYWVZZHlZVVAtNTJpb3ZfRFdnUUk1QmRlQnFFaUZKXzBsWjMwZVlyRTY4U1lvUGVUTm1zRnlnanc?oc=5",
+      "source": "강원도민일보",
+      "published": "2026-11-20T10:41:36+00:00",
+      "summary": "평창 변전소서 20대 작업자 감전…화재·사고 잇따라 강원도민일보",
+      "category": "grid"
+    },
+    {
+      "title": "특고압 '송전선로' 영동 어디 지날까…내년 3월 결정",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1BdG92TmxpQ01FcllJdUo5NUxBOGxLYXBySm5oSWtuaUdtZUU2cjNrc0didTJUNWx6d2ZqQXRKYnlPd0pYdTllRjBTMXpWTHZIMW0teEYyV1VzRmkybmpxZtIBeEFVX3lxTFBkNlkwRFNoVGo1LWpoY3RBWnRpcWxIUGR3Zmtta0ptRlM3Slg0dnZsR2doS1kyXzhjMElSbVFKdlhxUnp0MnZFUF83Nm5VT0N0NVEySmlRUV9EZVRocG9iREdCU29zX3ZwSlk0WktIWUJ0UjQyNjZoMg?oc=5",
+      "source": "뉴시스",
+      "published": "2026-11-20T06:37:43+00:00",
+      "summary": "특고압 '송전선로' 영동 어디 지날까…내년 3월 결정 뉴시스",
+      "category": "grid"
+    },
+    {
+      "title": "임실군의회, 초고압 송전선로 대응 특별위원회 출범",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1RQ0V0b3pqMzBKRzVZd0RNTk5yUXNELXV5OHZjN25qS2REU1NJMzgyV0FYdDNPdjhTNFdESFRWSWJFOXljSFJGX3kxSzEwU2R1U3pCZm9ieTlsdmJ0akdlYjhiR2ROX2JhRVAzSHFKa29vZ204V1RKMlYteVdDQQ?oc=5",
+      "source": "더파워",
+      "published": "2026-11-20T07:22:42+00:00",
+      "summary": "임실군의회, 초고압 송전선로 대응 특별위원회 출범 더파워",
+      "category": "grid"
+    },
+    {
+      "title": "임실군의회 김정흠 의원, 송전선로 대응 위한 특별위원회 구성",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1Ua0R2dG90dFNQb1cxNEUyOGNWMEpNVWxRZjh2R0poQXpMZHY1SktQT1BxTFY3YXRCWXBDZUdocjZUN1ZkdUZfNVRzb1lWQXZrVXRnSXV6czJUWHRINjBuOHVKX1I0QQ?oc=5",
+      "source": "한국미디어뉴스",
+      "published": "2026-11-20T03:12:01+00:00",
+      "summary": "임실군의회 김정흠 의원, 송전선로 대응 위한 특별위원회 구성 한국미디어뉴스",
+      "category": "grid"
+    },
+    {
+      "title": "평창 변전소서 작업하던 20대 고압선에 감전…병원 이송",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1XWWlON0lQdkEwNmtIaG8zemk5UGNpUjc0dElQSzNoVmJwVjZIWWE2MTFHeWM1M3hrTzJWSW5VN3JsYURpQ09SSVpPZnBTU1BWYVhLWg?oc=5",
+      "source": "뉴스1",
+      "published": "2026-11-20T08:56:58+00:00",
+      "summary": "평창 변전소서 작업하던 20대 고압선에 감전…병원 이송 뉴스1",
+      "category": "grid"
+    },
+    {
+      "title": "국민권익위, 곡성 제2변전소 갈등 현장조사…입지선정 논란 쟁점",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5rNW1ZSzFEVG9CLVpiUFpRZVZXSDJlb2dJemRqX0ZkVzMtTmNaNVlTZDZ6NnhuZW52bWQwNVdpWTh1ZlhpanRBXzYtTHFYTmJRc0JnUWtYSUpXbmZQVkRNSDFGcDl4Y3JmQWJjMVJn?oc=5",
+      "source": "전국매일신문",
+      "published": "2026-11-20T02:07:11+00:00",
+      "summary": "국민권익위, 곡성 제2변전소 갈등 현장조사…입지선정 논란 쟁점 전국매일신문",
+      "category": "grid"
+    },
+    {
+      "title": "임실군의회, 초고압 송전선로 대책 특별위 구성…주민 피해 예방 \"지중화 등 대체 송전방식 모색\"",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBBbVAyd1VPZ05jcDNJdDFBcWM0R1d4Wkl4Ymlxa19lVXI2Y2dCWld5RDA5SU1ndnI0SXFRU3RZaEV5V0tId2hJSFFZaV9MVmpHNFFRR1JVbC1aeTRXcmNBVjlmM3p5eVZkYWFEUU1n?oc=5",
+      "source": "국제뉴스",
+      "published": "2026-11-20T04:29:13+00:00",
+      "summary": "임실군의회, 초고압 송전선로 대책 특별위 구성…주민 피해 예방 \"지중화 등 대체 송전방식 모색\" 국제뉴스",
+      "category": "grid"
+    },
+    {
+      "title": "[산업X파일] ‘작은 원전’ SMR, 곳곳서 차질… 한국 계획은 괜찮나",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPNF9RV0ZYVWYtUUdzaDkyVUhUUS1yUXpUenZwQTFIcm1LQVh6T05sdkZ0TnNBeUtxLVQtYUlIa2hTcTRKNjBDY0hhSEIzMVpsRTN3Zi1EQXh3U016WkNTOU9CbVZFSGhDbm1rakRaTGhFVzRDclN4ODlBVEhGQVg3cUZCZTdBQTQzOEU3OFh3?oc=5",
+      "source": "조선일보",
+      "published": "2026-11-20T21:04:24+00:00",
+      "summary": "[산업X파일] ‘작은 원전’ SMR, 곳곳서 차질… 한국 계획은 괜찮나 조선일보",
+      "category": "nuclear"
+    },
+    {
+      "title": "재협상 없다…한수원, 대우건설 컨소시엄과 체코 원전 협약 종료",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1manY3SmJXU3dZak1KSy1Zdy1fYWxMZ21qRGNSOG5JNThiRzY3YzEtdGFtM3ZvVW9yRkxIV0hHbzB4Q0ZvSVlScVN0Wi12SEZ3U2llaXVZZGNDcF9Yc3c?oc=5",
+      "source": "기후에너지데이터뱅크",
+      "published": "2026-11-20T08:10:03+00:00",
+      "summary": "재협상 없다…한수원, 대우건설 컨소시엄과 체코 원전 협약 종료 기후에너지데이터뱅크",
+      "category": "nuclear"
+    },
+    {
+      "title": "한수원 \"체코 원전, 내년 7월까지 새 시공사 계약…적기 준공\"",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9aaUhvdmdVaVVyQy1iMUdaeFg0cnVBSFZUZWxhQkhpX0c2ODdteXNyMnhic3J6YmdmcTFUSjA0ZHpNeUFsc0JlQ2RCVmZRX3VyOXJfbnRsTnF3MTZqZ2hDY2FPTW9oems?oc=5",
+      "source": "연합뉴스TV",
+      "published": "2026-11-20T05:58:00+00:00",
+      "summary": "한수원 \"체코 원전, 내년 7월까지 새 시공사 계약…적기 준공\" 연합뉴스TV",
+      "category": "nuclear"
+    },
+    {
+      "title": "한수원, 체코 두코바니 원전사업 시공분야 공동협력 협약 종료",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9EVVVGRkY2RU1pZ3NCTVVHVGEwenRGNG9jZEFiN1JGcmVJVDJ0QzMxc3JMSFpkYUlBZ0dacWVJLWJDeGxoUFJHUF9td3gxa2dETnF0OUF0ZFhOMUlIbDdlZlAxNWN0QQ?oc=5",
+      "source": "데일리대구경북뉴스",
+      "published": "2026-11-20T05:44:03+00:00",
+      "summary": "한수원, 체코 두코바니 원전사업 시공분야 공동협력 협약 종료 데일리대구경북뉴스",
+      "category": "nuclear"
+    },
+    {
+      "title": "한수원 \"대우건설 컨소와 체코 원전 계약 공식 종료\"",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1VTWdkUFFMX09qT1ZtdFByY3RVZ0tYbjhycDRGMDJndWZpSXRnN1hmU0Y3amlEWUd0QkhNZmJ5VV9kZnQySjZzNDFNaHZZdXlHanEzLTVfQTlfSFFJZGRMcGhaNmM?oc=5",
+      "source": "매일일보",
+      "published": "2026-11-20T11:42:16+00:00",
+      "summary": "한수원 \"대우건설 컨소와 체코 원전 계약 공식 종료\" 매일일보",
+      "category": "nuclear"
+    },
+    {
+      "title": "한수원, 대우건설과 체코 두코바니 원전 시공 협약 공식 종료",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE93TVBEa2NmYTBWQ2JpSVlCblBGTXpDR3hhUUMwQUZNZm1PUzg2Zzk5bDgzRWNuZE9TM3VaQmlKMS1UTXFUUlNQaUJ3Z0MycmplbTJCMWw2b3M5NjUyUXNxNFRrd21GZGNfdXRNWTg2WVU?oc=5",
+      "source": "연합인포맥스",
+      "published": "2026-11-20T06:05:06+00:00",
+      "summary": "한수원, 대우건설과 체코 두코바니 원전 시공 협약 공식 종료 연합인포맥스",
+      "category": "nuclear"
+    },
+    {
+      "title": "폴란드 첫 원전, AP1000 핵심 부품 선제 조달 착수…2036년 가동 목표",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxORXI5OFd6ckxQTEYwLUdOUzlNZW9UOGF6TEhZS01vTzR0ejVadFE2Mm1VeWhlRHhwTlFXQVZIemxLc1daUnRPWUt1Y041THFXQkZHV2xNam1VeUZubHl0S2JSUi1wMEZtbkc3U2UyQmc0Vlo0NVo3U3pqT3dJYVVBYXRZTVRnY2Nz?oc=5",
+      "source": "글로벌이코노믹",
+      "published": "2026-11-20T12:39:04+00:00",
+      "summary": "폴란드 첫 원전, AP1000 핵심 부품 선제 조달 착수…2036년 가동 목표 글로벌이코노믹",
+      "category": "nuclear"
+    },
+    {
+      "title": "[초점]한·베 에너지 협력 ‘MOU→프로젝트’ 전환…원전·LNG발전·전력·재생에너지 사업화",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9GMzdVTlotZ2ZiRGJIRjI1aUdTdUlUYTJYVnpVZ1l1dDlQZkR1SE0tVHlTSlVxUXpuNTlPaFpQTEJMWUdpN2Z2MXhHV21VVDBUUnZUT215UXZUSTRGVDdfNU1ubHRubVNuVGQ2N2JxQnRYQQ?oc=5",
+      "source": "에너지데일리",
+      "published": "2026-11-20T07:01:27+00:00",
+      "summary": "[초점]한·베 에너지 협력 ‘MOU→프로젝트’ 전환…원전·LNG발전·전력·재생에너지 사업화 에너지데일리",
+      "category": "nuclear"
+    },
+    {
+      "title": "[AI전력 해결사 원전] 다가오는 공백 우려…원전 확대 전략 속도 필요",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5kd1JuTTA4bzB6ZUVDQWJxVTZYenFCVTUxRmJNZXdjLUhwc1B3LVVvX1RlZFZpM2pEYXJqMXdRbHVnQ1Q1V3p3NlVxM2E3cFhjYTh5Uk93?oc=5",
+      "source": "DealSite경제TV",
+      "published": "2026-11-20T08:01:25+00:00",
+      "summary": "[AI전력 해결사 원전] 다가오는 공백 우려…원전 확대 전략 속도 필요 DealSite경제TV",
+      "category": "nuclear"
+    },
+    {
+      "title": "한수원, 원전 전기설비 기술 교류 통합...현장 문제 해결 나서",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE8tUHlSTnJHT1c3azAwUGVpdDBjeUtIbFN6b09BRlpnX3lJaXh5RDFJRTV2c1BZMnVrQko1YVVDWFZVYmw4eUtXSFcwTWJfbHRuNnlQRWFWSDVkci0xNWFPclZHVGljT0p5OGc?oc=5",
+      "source": "천지일보",
+      "published": "2026-11-20T14:39:40+00:00",
+      "summary": "한수원, 원전 전기설비 기술 교류 통합...현장 문제 해결 나서 천지일보",
+      "category": "nuclear"
+    },
+    {
+      "title": "간사이전력 오이원전 저준위 방사성폐기물 1,200드럼, 아오모리 롯카쇼로 해상 운송",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBfSWw1UmJoNEE4ZlI2bE55MXo1R0dyRFVJSXBtcUZHWS1yWWtfTUlMLUw1ZENWUVNOdjFpdVViRjZPVUd5cjg5RWJDMlFtdjhIb2NGcjl2QTg3OFRjVk5Fd2dkdTFXUjFk?oc=5",
+      "source": "https://www.2news.co.kr/",
+      "published": "2026-11-20T21:46:41+00:00",
+      "summary": "간사이전력 오이원전 저준위 방사성폐기물 1,200드럼, 아오모리 롯카쇼로 해상 운송 https://www.2news.co.kr/",
+      "category": "nuclear"
+    },
+    {
+      "title": "한수원, 체코 원전 시공사 재선정...K-건설 수주전 불붙나",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5USTlWLVl6clc4cW92VzNkX0tGbVQ3dlYtel96RVZMLW9Jb1hVd1B2eHBjeGhvOWJfS01hdnJ3TFZOVlg1QTd4VlNraWc4T04tVm05aFZDamNZSEprdEd1elV6QWZQdmNfeFE?oc=5",
+      "source": "천지일보",
+      "published": "2026-11-20T14:49:44+00:00",
+      "summary": "한수원, 체코 원전 시공사 재선정...K-건설 수주전 불붙나 천지일보",
+      "category": "nuclear"
+    },
+    {
+      "title": "간사이전력, 폴란드 첫 진출… 발트해 390MW 해상풍력 지분 40% 확보",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9RMWFJS3Z0cWNoUEJQZk80RElBVngtaUNLRGNEVlVJZ2h5ZUZ6R2hCRW43V0thaVVMQ2lhNmpfdk1mWXNqQjdGME5na3VfMmFBVzA2TVRuaUlSbG1xc1FsekRmMXVBVEE2?oc=5",
+      "source": "https://www.2news.co.kr/",
+      "published": "2026-11-20T21:43:26+00:00",
+      "summary": "간사이전력, 폴란드 첫 진출… 발트해 390MW 해상풍력 지분 40% 확보 https://www.2news.co.kr/",
+      "category": "renew"
+    },
+    {
+      "title": "두산에너빌리티, 야월해상풍력단지 LEG2 포함된 보험에 가입",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE04MWdxOFVrb3hHa0JITGlLa2N2V1NqOW9PV242elJMRXRQQjlpTFBpYXRjV1p2RlMyelRFd1BOQk9WUk1XejcxSDdheDJmSzgxUHBCVVlwZHFManNn?oc=5",
+      "source": "뉴스;트리",
+      "published": "2026-11-20T05:32:19+00:00",
+      "summary": "두산에너빌리티, 야월해상풍력단지 LEG2 포함된 보험에 가입 뉴스;트리",
+      "category": "renew"
+    },
+    {
+      "title": "[에너지 인사이트] 국내 해상풍력 생태계, 본격 도약기 오나?",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE42dEtxbk8zVGJ5ZE1MRHc0MnlBVjBFZmFJbVZHOFNmaXVIaS1YQUVsNDNaVlJZVll0OXdaSmpSWHhTcUhSeTd6MmdUY0pMYVJuLV9Ra0VXYkpoaTBiY2daTjRKNE9KZldNNG1icVd3?oc=5",
+      "source": "투데이에너지",
+      "published": "2026-11-20T04:20:00+00:00",
+      "summary": "[에너지 인사이트] 국내 해상풍력 생태계, 본격 도약기 오나? 투데이에너지",
+      "category": "renew"
+    },
+    {
+      "title": "국산 해상풍력터빈, 글로벌 보험조건 적용",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBXZ05iRjlZTnJ5OHJFb0dzc2JSdF9qSE5Vem9YQWhuOVQ0UVpHMnpoWHFrbThVOHkwYW9rVmxrVFMtUFhfSmNEQW9jYVpHdWtreTE2XzI4TXZVOWlobGlTZWhBRQ?oc=5",
+      "source": "국토일보",
+      "published": "2026-11-20T05:16:57+00:00",
+      "summary": "국산 해상풍력터빈, 글로벌 보험조건 적용 국토일보",
+      "category": "renew"
+    },
+    {
+      "title": "두산에너빌리티 8MW 터빈 들어서는 영광 야월해상풍력, ‘LEG 2’ 보험 가입",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFA1d1NQTlQxUzRMb3hMZmF0QmlaMW9SWkJ3ZlYwdGhPNmd4emFuR0NDanoxc01HbmZRWFhQOE5GZW9jWjVMVzUwUXZ5bTdFSG9oRFpXQl8yZzVOSnFUVkxjZHdpc2w5UHM?oc=5",
+      "source": "M이코노미뉴스",
+      "published": "2026-11-20T04:44:23+00:00",
+      "summary": "두산에너빌리티 8MW 터빈 들어서는 영광 야월해상풍력, ‘LEG 2’ 보험 가입 M이코노미뉴스",
+      "category": "renew"
+    },
+    {
+      "title": "[산업 Pick] 두산에너빌리티·LS전선·LS마린솔루션, 국산 해상풍력터빈 글로벌 보험조건 확보와 한전 해저케이블 수주",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE05WTFUdVVRRXU2NEloWkFBX3g2VVBwaFloenQ0c0xPS283UFB1NVQzd2hTZVNab1ZSYVM0LWVYT1c3cHRPc1o1aUtGaHY4YnhRM3VSMDhmREJ3Nllma1RVaFZmUm1rWlZLNUpN?oc=5",
+      "source": "라이센스뉴스",
+      "published": "2026-11-20T06:30:00+00:00",
+      "summary": "[산업 Pick] 두산에너빌리티·LS전선·LS마린솔루션, 국산 해상풍력터빈 글로벌 보험조건 확보와 한전 해저케이블 수주 라이센스뉴스",
+      "category": "renew"
+    },
+    {
+      "title": "두산에너빌리티 해상풍력터빈, 국제 보험 기준 적용…해외 사업 확대 기반 확보",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFA4UGJuVDFRTGRNRU13TE5yeE8xcmZ0SHAtbmJPZFl0eUZaZW1YeEhJMll2VXBsWGIyMnVMS2YtWDdFY2NqTG5JOHZ0S3licFVkWTVIbnhBLUlkZUhDNVFwSGYzanRKMU5zZlg4?oc=5",
+      "source": "뉴스저널리즘",
+      "published": "2026-11-20T07:52:49+00:00",
+      "summary": "두산에너빌리티 해상풍력터빈, 국제 보험 기준 적용…해외 사업 확대 기반 확보 뉴스저널리즘",
+      "category": "renew"
+    },
+    {
+      "title": "포스코, AI 데이터센터·전력 인프라 잇는 미래소재 경쟁력 높인다",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1EenplcVVhOFUzR0VJdXZCNllrUGcxbjF2YVZ1ZUZUWEdjblAyclRNZWdQZ1pxdFR5cy1ZWlZNTl9SYmowdHZ6OWZHOTdueEliLUdkaHZiVHpmZTBrOU8wWFFxSHNTX0tzc1huTg?oc=5",
+      "source": "비즈워치",
+      "published": "2026-11-20T08:36:02+00:00",
+      "summary": "포스코, AI 데이터센터·전력 인프라 잇는 미래소재 경쟁력 높인다 비즈워치",
+      "category": "datacenter"
+    },
+    {
+      "title": "세계 1위 배터리 기업 CATL 회장, 데이터센터 전력 시장 출사표",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFAwQW9qS2p1NGdORjdqSWlPVXZ0bmhtZ1Q3R3NlSTREU004T29LMFQ0YXNOb19YM0V6MHd0WDRwVFczMElnVmZURXdpMWotbks0VG8xWHpOZlN3NGVnSnplREhnWQ?oc=5",
+      "source": "더구루",
+      "published": "2026-11-20T04:38:55+00:00",
+      "summary": "세계 1위 배터리 기업 CATL 회장, 데이터센터 전력 시장 출사표 더구루",
+      "category": "datacenter"
+    },
+    {
+      "title": "비수도권 AI데이터센터, 전력계통영향평가 문턱 낮춘다",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9OQnFOYm96YmNFSm8tb1kzZWlqWmFlRUVyamJ2U2VJVGl2bEpjU1llSW9uWUFLa1RxVzFsSUhfMTFoZUV1LVh5UTZ4YUxQQXRnMVhTQ2twUUNtakgxV0hXdVZ3?oc=5",
+      "source": "매일신문",
+      "published": "2026-11-20T05:56:06+00:00",
+      "summary": "비수도권 AI데이터센터, 전력계통영향평가 문턱 낮춘다 매일신문",
+      "category": "datacenter"
+    },
+    {
+      "title": "포스코, AI 데이터센터 전력 인프라 공략…미래소재 사업 확대",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE4ydHIyMVFkT3duSWxJcllmdTlIanJJdVBLXzdNdGhNeHZQdVVUcWt5cVg5SzFWb1hkcFNvM3AyTTd5RGVBcFJMYnRBSXRIQi1DZEZWblctZ2hOdk9wWFdSTVl1SnBQaHNTRi1IaDRn?oc=5",
+      "source": "이지경제",
+      "published": "2026-11-20T07:08:58+00:00",
+      "summary": "포스코, AI 데이터센터 전력 인프라 공략…미래소재 사업 확대 이지경제",
+      "category": "datacenter"
+    },
+    {
+      "title": "넷스카우트, ‘지속가능성 고려 설계’로 데이터센터 전력 소비 절감",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE13bXhLZ1Zyc0tfVmg1M1FPSjkybXczOS0ySjRfLTZYYUEwTFVfVW5FX0tLNXNVYzc0SjUxMkFXUVBpXzlmNVQtcWlBRHNpUGloVXItVHVZZVJCMlVJZkMzVQ?oc=5",
+      "source": "올포칩",
+      "published": "2026-11-20T19:26:00+00:00",
+      "summary": "넷스카우트, ‘지속가능성 고려 설계’로 데이터센터 전력 소비 절감 올포칩",
+      "category": "datacenter"
+    },
+    {
+      "title": "AI 전력 수요에 인프라 투자 확대…저가매수 기회는 어디에?",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE94RFU2dmNBLWdJZ1ZKeU5kUm96RktreE5PaVdNX2dUNFg5SnlNT3lJazcwRnZSQ2NmOFdmY21FRHdPbDB1aENYbzBEUlRqaGZ2NS1pQnNrSVFUdnBpelRYSA?oc=5",
+      "source": "아시아경제",
+      "published": "2026-11-20T04:32:00+00:00",
+      "summary": "AI 전력 수요에 인프라 투자 확대…저가매수 기회는 어디에? 아시아경제",
+      "category": "datacenter"
+    },
+    {
+      "title": "SKT·효성중공업, AI 데이터센터 전력설비 '선제 확보' 맞손",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1yUHM2bTdncjhMak9YWUFndUhSNGFUV1ZFZWtKdkpqSnNqSUZxY3I5eDBFV00yTXo2Yi1rSlNQM1h0dW5xNDVUTExYaFZZT1FGMXNnbDludzcwVUd2OGpmdENiVnNaUnF5Mm1vTVFB?oc=5",
+      "source": "폴리뉴스 Polinews",
+      "published": "2026-11-20T08:04:25+00:00",
+      "summary": "SKT·효성중공업, AI 데이터센터 전력설비 '선제 확보' 맞손 폴리뉴스 Polinews",
+      "category": "datacenter"
+    },
+    {
+      "title": "AI 데이터센터 전력 병목, 초고온 암반 지열이 흔드는 에너지 조달 판도",
+      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1vQVhxLTh0R2RWRjN3UF83M2YzOTVKYXF4ZEJac0ZRSmxVeHcxMXBGQ0lNNWJxS20tRzgtcmUyWXQySTk4NXhVbkNR?oc=5",
+      "source": "뉴스N연합",
+      "published": "2026-11-20T21:45:18+00:00",
+      "summary": "AI 데이터센터 전력 병목, 초고온 암반 지열이 흔드는 에너지 조달 판도 뉴스N연합",
+      "category": "datacenter"
+    },
+    {
+      "title": "Zeo Energy “태양광 설치 고객, 전력회사 대비 전기요금 약 50% 절감”",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1DU3J2MkJxTzhYS2dyZm9jMXNJS0pOZ21Va3IxWHZ4SFdMbGdsWGJhSlhSMlRySHo3UGVoZ3dtV2hzaDRNV0F4Q3psLWItdDFJenB1WUZtWC1UdXp5eW1TalBGeW9FeHJpdUZYaTBKcWM?oc=5",
+      "source": "Investing.com 한국어",
+      "published": "2026-11-20T13:34:00+00:00",
+      "summary": "Zeo Energy “태양광 설치 고객, 전력회사 대비 전기요금 약 50% 절감” Investing.com 한국어",
+      "category": "policy"
+    },
+    {
+      "title": "데이터 센터는 생산에 대한 통합 전기 요금 체계의 적용을 받을 수 있습니다.",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNM19HSVpBeVR1V1djclFOS3NCVG54X1h5Mk04MmxVei1RaDgxRnl4LVBPWFJTd0ZnQ05Wc1BxYTBnNXlWYmpxWnhqdnllSlFjdTB3Tmhnd0hXaG1wQzRxRmdMekdUTzhJXzFndzFadFFwQ2ptcXNMN0N3QVNOdXNaR1hFRmtnX0ZjUUtPVzVvOHY5S0pFaFVv?oc=5",
+      "source": "Vietnam.vn",
+      "published": "2026-11-20T16:05:47+00:00",
+      "summary": "데이터 센터는 생산에 대한 통합 전기 요금 체계의 적용을 받을 수 있습니다. Vietnam.vn",
+      "category": "policy"
+    },
+    {
+      "title": "일진전기, 싱가포르서 1100억원 규모 초고압 케이블 수주...유럽·동남아 잇단 대형계약",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBPNjFYZlJIUkxpRF80QTd4M3BlbmlXMUl1b2NKUC1QenYwNURpb0tVdUtGTEdHY1NCc29OWVJ6QU5Oa1hrSnhxTGtmSDRBTW56Ui1TMTJmY1B1VE9QUlpGSFN0cDE3aFNZ?oc=5",
+      "source": "녹색경제신문",
+      "published": "2026-11-20T08:01:58+00:00",
+      "summary": "일진전기, 싱가포르서 1100억원 규모 초고압 케이블 수주...유럽·동남아 잇단 대형계약 녹색경제신문",
+      "category": "industry"
+    },
+    {
+      "title": "LS전선, 서남해안 해저 송전망 보강…초고압 케이블 14㎞ 추가",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFByQUhhZE5LNGFvVFhEQTNiN2tmeXRrdlBhekExcHVTV2xGdnpqRXhfc0JJSi1KWWpRWEhaTnExWWNPbWNrYlh0MDJ5VmFUX2tzNFZIeDZsRmRlcC15UF9Wck90dlM?oc=5",
+      "source": "매일일보",
+      "published": "2026-11-20T07:41:58+00:00",
+      "summary": "LS전선, 서남해안 해저 송전망 보강…초고압 케이블 14㎞ 추가 매일일보",
+      "category": "industry"
+    },
+    {
+      "title": "효성중공업·HD현대일렉트릭, 3분기 누적 수출 4조 원 돌파…’K-전력기기’ 호황",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5ON0kxVGpWM2lJR29WU2wxLTR0cEFLU29Ba2RxdmpYanRuZ0YtZ0YyUXhqRkJzcnFxdHNaaWVoYWRxYVI4MlZjNEtTM0dDNGlJc3c?oc=5",
+      "source": "더나은미래",
+      "published": "2026-11-20T06:35:00+00:00",
+      "summary": "효성중공업·HD현대일렉트릭, 3분기 누적 수출 4조 원 돌파…’K-전력기기’ 호황 더나은미래",
+      "category": "industry"
+    },
+    {
+      "title": "전력망 못 기다리는 美 AI 데이터센터…K전력기기, 자체발전 수요 공략",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1Kb3lRcDFsc1p0VWNCSW04R2ZWbnBvWXJJN25Wc3luaUZURWRDZkJ5S1FGcGhfNGhNVFhSQ1pCd2dPX25EQnRwTnF5WFQzSHdyczdsRGlDS05YWWpKcWJJbEt0WlljU1dHQWdZbEZR?oc=5",
+      "source": "아시아투데이",
+      "published": "2026-11-20T04:46:32+00:00",
+      "summary": "전력망 못 기다리는 美 AI 데이터센터…K전력기기, 자체발전 수요 공략 아시아투데이",
+      "category": "industry"
+    },
+    {
+      "title": "LS ELECTRIC 9%대 급락…전력기기주 동반 약세 [종목NOW]",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBjcjVHSXJMdDhFWkZjVTc2LVZTbWozczNtUEdVZkhtcmtWdHlfY2dFOXJHc2NzcjhkajFDZ1ZLLVJPUGlXZ1F2VTJtUjdnb3dfb3dLc3hpbjBiUQ?oc=5",
+      "source": "파이낸셜뉴스",
+      "published": "2026-11-20T06:10:32+00:00",
+      "summary": "LS ELECTRIC 9%대 급락…전력기기주 동반 약세 [종목NOW] 파이낸셜뉴스",
+      "category": "industry"
+    },
+    {
+      "title": "LG U+, 전기차 충전 기업 '볼트업' 독자 경영…카카오모빌리티 지분 인수 - 머니투데이",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE0xUi1NTWczTkNhR1pFd2NxVlBmWTdIVktWOFFXOEZDUm9qdVR0bGFEazVqSW1MWTNyV19BVDZPeDJxcUNxRlFWdGIwanNDVkkzcEd1bXR6ME53dFFDRXFZZDFEX21nVkXSAWxBVV95cUxQcjBRSGJJSWRqMzQySGVXYTdnZ056TkZXSE1QR2I2RXRCYmd1ZFRBTkVpazFPM2ZOVTktY2JJdnZyVWNaVmUyT2huRFBvZTdPbk5Db0tPOWpGeldLTkE5amM1c1dTSjA1X0RMS1Q?oc=5",
+      "source": "머니투데이",
+      "published": "2026-11-20T21:03:20+00:00",
+      "summary": "LG U+, 전기차 충전 기업 '볼트업' 독자 경영…카카오모빌리티 지분 인수 - 머니투데이 머니투데이",
+      "category": "ev"
+    },
+    {
+      "title": "“AI만 새먹거리 아니다” LGU+, 보안·전기차 충전 사업 지평 확대",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5wbmdVQ2p2OHdfYVpZSi1UYXh0M0pGLVd3QkNCbUZQa1h6VFFOU3YzME5IREFSc1k2YjY2dnE1ZTBTTkt2dDdvanJWNlh6bHNoUkRBNVJ1UmRNS0NQZnFyWVM3RUE5RmVk?oc=5",
+      "source": "아이티데일리",
+      "published": "2026-11-20T04:44:10+00:00",
+      "summary": "“AI만 새먹거리 아니다” LGU+, 보안·전기차 충전 사업 지평 확대 아이티데일리",
+      "category": "ev"
+    },
+    {
+      "title": "LGU+ 510억에 카카오 지분 인수…전기차 충전 볼트업 단독경영 체제",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE12Um84ZGxUNm5aR3pHamJlQzFpTkF3NllBQ2Z3STI0V25yVGxWSmtiY1gzMXh5anBrdVZ4ai1vRVRSaW53cUh3ejU3OXlrejFvdldCb3Y5RDBsM2F1WlJEdQ?oc=5",
+      "source": "뉴스토마토",
+      "published": "2026-11-20T08:01:11+00:00",
+      "summary": "LGU+ 510억에 카카오 지분 인수…전기차 충전 볼트업 단독경영 체제 뉴스토마토",
+      "category": "ev"
+    },
+    {
+      "title": "인천 남동구의회 이철상 의원, “공공 전기차 충전시설 장기 중단… 운영 실태조차 제대로 파악 못해”",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBIRkQtUlFQa0VvMGJfd2hBWl9xVGhVLTZid1NMbTFFdlFJS2lIcHpQTFVCTURacjhaR2xjMEJ0cEw2aDRQS09FUTktVTVSd3llR1JvX3FCUy1zbVBuS1BFS1hOUVFtYVBaOFFfQVBn?oc=5",
+      "source": "전국매일신문",
+      "published": "2026-11-20T05:41:48+00:00",
+      "summary": "인천 남동구의회 이철상 의원, “공공 전기차 충전시설 장기 중단… 운영 실태조차 제대로 파악 못해” 전국매일신문",
+      "category": "ev"
+    },
+    {
+      "title": "LGU+, ‘전기차 충전’ 볼트업 완전자회사로…카카오 지분 510억에 인수",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9GbllxWVFiMmdmV1liVHd0YVQyeEt1Z2djbHpwMk5iVzFZVmdiekdvWXhMRzAyNkRYT1p3YTRET2xLdG5lSmlRU0NtN3oxRndMTVHSAVNBVV95cUxPX184RXJNaGFBSDZPaWNzeG0tLVJ4YllpazdFeUlQVlRyR1B6bDlXQnk2TW5YdXVJZU5jOWdpOUVIZHh3Nkl5akFiZXVVLTlVY0J2dw?oc=5",
+      "source": "서울경제",
+      "published": "2026-11-20T07:47:36+00:00",
+      "summary": "LGU+, ‘전기차 충전’ 볼트업 완전자회사로…카카오 지분 510억에 인수 서울경제",
+      "category": "ev"
+    },
+    {
+      "title": "인천 서해구의회 김학엽 의원, 전기차 충전시설 전수조사와 동별 최소 설치 기준 마련 요구",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1hU1RFY0U0eWxZMm9kQXZZaFZmQUdVZlVLUW1LdjYzVFROYjVVSGw2R21nMlhKTHVZVlgxNm43ZUgybUZPZ0I2UlVzUWl2NDM5Z2ZRcE04U05OM1RtdDZrZmUyR1BuVXBv?oc=5",
+      "source": "경인매일",
+      "published": "2026-11-20T07:31:36+00:00",
+      "summary": "인천 서해구의회 김학엽 의원, 전기차 충전시설 전수조사와 동별 최소 설치 기준 마련 요구 경인매일",
+      "category": "ev"
+    },
+    {
+      "title": "서해구의회 김학엽 의원, 전기차 충전 인프라 사각지대 해소 촉구",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBmR0Y2S2UtTmJCcGdENWtHUFdvbnN3ekQ3U0lyNF94TDlYTlVLaTZwZTJPZHhMR2c1Z1M0N1JYMFpiMDJPa3hvYWd2OEtER29rOHJTMVhoQlVsUi00My1QOHZ1aWhWOWlzbHV5MVF3?oc=5",
+      "source": "현대일보",
+      "published": "2026-11-20T06:03:34+00:00",
+      "summary": "서해구의회 김학엽 의원, 전기차 충전 인프라 사각지대 해소 촉구 현대일보",
+      "category": "ev"
+    },
+    {
+      "title": "LGU+, '볼트업' 지분 전량 인수...전기차 충전 독자 경영",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5DVUxyRk52al8wNWUwb0Fwd2JoeTlqRktmWjlLLWExQXpXV3RHbkpfc0loQ3NRZzloVzFCbnBEa2NxTUFQM05RUkRWT1JQXzRoWUhhT0R5bjI4QllnQV9aYkI4YzlyMDVTM2t2dg?oc=5",
+      "source": "생생비즈플러스",
+      "published": "2026-11-20T08:15:19+00:00",
+      "summary": "LGU+, '볼트업' 지분 전량 인수...전기차 충전 독자 경영 생생비즈플러스",
+      "category": "ev"
+    },
+    {
+      "title": "LGU+, 카모 보유 볼트업 지분 전량 인수…단독 경영 전환",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5oNnV3c2h2TlIxYlRGdWtDVGhINTBCVXlDdjZudGJ1dmlFOHNRQXNkRW04QVFSeG9ZdmVZSEhNZlNoSF80aWJUallfRjRSSVByTURQa0xhM1FxdFHSAWBBVV95cUxNSkplRW1ESXliTXVtVl9SeFhkMmNCQXJwTkc3aWNzOTFIWmJEUVB2MnlfRnBZRnRpNGs4X2pjUFZRbDRyTl9KbWZVd090bVhDX1pudHlRNWRrTTVHNGZ5c3Y?oc=5",
+      "source": "연합뉴스",
+      "published": "2026-11-20T08:00:28+00:00",
+      "summary": "LGU+, 카모 보유 볼트업 지분 전량 인수…단독 경영 전환 연합뉴스",
+      "category": "ev"
+    },
+    {
+      "title": "JDC 제주혁신성장센터 입주기업 소프트베리, 기술신용평가 최고등급 ‘TI-1’ 획득",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBORHdRTjVoTC15dkFmV2JTc1h5NllWMDV6SEtTeWNkM0w3U29QLVlXNXJRaF9LaXgweVBYdnM1ZFJWUEJOV21udEttUzA2bjUwMFpqYnRPTVdtOWJ4Rl9zYzh4TndySDJBRHFBcw?oc=5",
+      "source": "저널25방송",
+      "published": "2026-11-20T09:17:49+00:00",
+      "summary": "JDC 제주혁신성장센터 입주기업 소프트베리, 기술신용평가 최고등급 ‘TI-1’ 획득 저널25방송",
+      "category": "ev"
+    },
+    {
+      "title": "영하 30도, 전기차 충전 단 '12분'…BYD가 작정한 '혹한 기술력'",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9QWDRIZk1FNFpSVHhlWGFuOUR3VWlMT2ZCM0puTnhEYmZpeENSeUVyWVV2aWZfdFJxVDdvNHRGMkJwZF90b25nbFNiV295dU43MXhYQmMycU0zRHhzY0Q3Ylc0cWU2UDI0OFJFVEJia2RtMXM?oc=5",
+      "source": "마켓인",
+      "published": "2026-11-17T09:57:34+00:00",
+      "summary": "영하 30도, 전기차 충전 단 '12분'…BYD가 작정한 '혹한 기술력' 마켓인",
+      "category": "ev"
+    },
+    {
+      "title": "한전, 스마트그리드 통신기술 ISO표준 채택",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE92aGxEUHhzb1NfZ2NNWEk4UG9LUjNaeFliZWxrV2lLTkZoRXprMzBNOTVRekcyc0tMUFVBOXlKSlNPZXIwQlNMRnlfYU5UN09ucy1KYUdaRXRfZVAtNGN0SGFxaG1kVW8?oc=5",
+      "source": "ebn.co.kr",
+      "published": "2009-07-31T07:00:00+00:00",
+      "summary": "한전, 스마트그리드 통신기술 ISO표준 채택 ebn.co.kr",
+      "category": "ict"
+    },
+    {
+      "title": "\"한전은 송전선로 선정 근거를 설명하라\"",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1kLVJ2VW1QZVJwQzBLT1FsYXBxcEhyMDFhSVZDLXA3Mk9zSGIyWWNCRE56c2RtMk5NVFVTUDdjMGYyZ195MlRTeUd4eWxFVDNDcXFMYm9jbnZnb1JyT3VGa2Zla3BzYmsxUU1LYlU5amVEUGVFNlp3?oc=5",
+      "source": "OhmyNews",
+      "published": "2026-11-21T01:21:00+00:00",
+      "summary": "\"한전은 송전선로 선정 근거를 설명하라\" OhmyNews",
+      "category": "grid"
+    },
+    {
+      "title": "우렌코 \"원전 논쟁은 끝났다\"…COP31서 확인한 원자력의 달라진 위상",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9UUGJFT1hibXlQMThtcGlOeEZ6Y21MeGlzWVdKMFNkczdmQXpTQVVfLUtqU1RScXFNbW1EN1ZZb1VhWmpPbE83aGdOb2o5d2F3enY2ODJjSkxqMVUtM1AybGRTLURBUGRG?oc=5",
+      "source": "https://www.2news.co.kr/",
+      "published": "2026-11-20T22:09:34+00:00",
+      "summary": "우렌코 \"원전 논쟁은 끝났다\"…COP31서 확인한 원자력의 달라진 위상 https://www.2news.co.kr/",
+      "category": "nuclear"
+    },
+    {
+      "title": "한수원 \"대우·두산에너빌과 체코 원전 시공 공동협약 종료\"",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9POHoxcnNvVkw3d2FERkFCYlZLdVpVMFlaLU8xWmZrYVNRZEd3XzBWY01TNVFmTHpRM1BNSVRYMGlscHhJNXFQRkQ0OWNoTDBodFNiWTNPZWp5VVpfQTlMck9n?oc=5",
+      "source": "매일신문",
+      "published": "2026-11-20T08:56:50+00:00",
+      "summary": "한수원 \"대우·두산에너빌과 체코 원전 시공 공동협약 종료\" 매일신문",
+      "category": "nuclear"
+    },
+    {
+      "title": "“국산 해상풍력터빈 기술력 통했다”…두산에너빌리티, 글로벌 수준 보험조건 확보",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9sMkhvNFh0NlY5WXBLMUNkWXlDeHkxZWg4a04xbllKMTIydk40WV9STWZNa1Z0WjNJd3RHVnFVdjdoVXdxSUczVTBaOFNpaUN4NE9sZWdqNzM3cFo5WERxRFFpQXFqdGx0SVp1bm9xRXJKVC1BSVHSAWZBVV95cUxPQ0VfT0dUUDRSYmF2YjVQTG81NWZxdE1GN2ZzSEFQX19teUQ2Qk9ubW16eHdVRjduT2NzeGZkeGVDQVJTYmlhaldLX1ZlUEhfUUtxZG9WQXJEZDhYbVUyY0NRa0FmSFE?oc=5",
+      "source": "동아일보",
+      "published": "2026-11-20T09:30:28+00:00",
+      "summary": "“국산 해상풍력터빈 기술력 통했다”…두산에너빌리티, 글로벌 수준 보험조건 확보 동아일보",
+      "category": "renew"
+    },
+    {
+      "title": "개정된 전기법 초안은 투자 및 전기 요금 책정과 관련하여 많은 새로운 메커니즘을 제안하고 있습니다.",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNSVdId2FLSWQ5SU9MOGpSS2R3SjJDNGV0UnlaTzRFU3d0S3ZNc2VLV1BBcmViYjl1Vjg4TmNhX2dJcnhtWWNrc2MwY0JSa3VySUMtVWhoMHRNNE9hOU9RX2MtN0Q4R3RZLXJXU1ZpYlA2S1ZkZTNXV0NuWEhFZldkZDFIYTQ5M0NpaFNjRTdjNlpNOGhheXlUSEVOYXpuWTY0ZkpiOA?oc=5",
+      "source": "Vietnam.vn",
+      "published": "2026-11-21T03:28:20+00:00",
+      "summary": "개정된 전기법 초안은 투자 및 전기 요금 책정과 관련하여 많은 새로운 메커니즘을 제안하고 있습니다. Vietnam.vn",
+      "category": "policy"
+    },
+    {
+      "title": "[경제] 中 10월 말 전기차 충전시설 전년比 36.2% 증가",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9KWjdmeTduNy16TmV3UnFTWGJDN1l5SmVSWVZwQU92Wlk2OUJldm53UEh5SlJBWWc4bVhnTVhhblZXVDNEZ0N2dzhmM1hNUlJUWlp1dXRYRTJoU1VIVDhHdWJKOWdQNW1Lc0tNNVVUdENBMU0?oc=5",
+      "source": "동방일보",
+      "published": "2026-11-21T03:15:54+00:00",
+      "summary": "[경제] 中 10월 말 전기차 충전시설 전년比 36.2% 증가 동방일보",
+      "category": "ev"
+    },
+    {
+      "title": "전기차 충전·결제 기술력 인정… 소프트베리 투자평가 '최고등급'",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9Dbm5SdG1BNFdYbW5RWkF0Wl9wa1B5ZlJ6MXRjSWtBZEpZdjE0azQ0Qk5tRFRYRGdUWE05TnZ3UlFtY0Rfc3JfeF9EQjhMSVlyVlZPNEl5WEFFQQ?oc=5",
+      "source": "파이낸셜뉴스",
+      "published": "2026-11-20T23:11:23+00:00",
+      "summary": "전기차 충전·결제 기술력 인정… 소프트베리 투자평가 '최고등급' 파이낸셜뉴스",
+      "category": "ev"
+    },
+    {
+      "title": "전력거래소, 계통보호 기술교류회… 한전·발전사 등 19개 회원사 참여",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5qYUFjU0h4aVJaNzZOSkY4bXBGbDRoVzNPSndlZmMyVkU4MHZLX1FjRkRtRWlHRFV1RzV0WVFla1NxcUtZcmkyVTVCc0JqWWJVZWhXeUxTWHY0MHBaaWw5emxwQXM0VUlZcV81SFBYNzhQUQ?oc=5",
+      "source": "에너지데일리",
+      "published": "2026-11-20T06:57:24+00:00",
+      "summary": "전력거래소, 계통보호 기술교류회… 한전·발전사 등 19개 회원사 참여 에너지데일리",
+      "category": "market"
+    },
+    {
+      "title": "전력거래소 ‘제22회 계통보호 기술교류회’ 개최",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1CbzVxLUNtZ0N5VWpUSUpYdWoxSUg2X2hHd056N2IyVDN6STZ4NndVMTAwYjRJNXMtTzJ0a09OZHJxeVhvUTBSTE4wQ1lveEVvRW4tWmZ4eWhjVVRsSkhpYUVYVnhsejFTQlkydmRR?oc=5",
+      "source": "투데이에너지",
+      "published": "2026-11-20T06:54:19+00:00",
+      "summary": "전력거래소 ‘제22회 계통보호 기술교류회’ 개최 투데이에너지",
+      "category": "market"
+    },
+    {
+      "title": "[테크] 中, 올 6월 말 기준 가상발전소 프로젝트 592개 가동",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFA5ZElUajU3TkloNlktdmt2bmdMdHFxbDQ0UTlUaC1qLTZXSnpGQUk2WURrdHJBSW5CNlFOQi13d0QxVmZ5dmJDY0NHM3pzdmtzSHdxYnNDQTdjWllzWFE5cDBTSnV1S3N5UmxyRNIBcEFVX3lxTFBuaWJWaEVqVVJrOHlpUDhvZ1Z5S0ZlTGdWUkFuMWd0R05kZ3BwelRIaWIteVRZUFc4T244WktZYTBqemFlUDVBVHNoSmpQeE1CRFU1LVEwVmw0VS1iVndEY19SY2pRUG90WTNITE5wejE?oc=5",
+      "source": "내외뉴스통신",
+      "published": "2026-11-21T00:49:00+00:00",
+      "summary": "[테크] 中, 올 6월 말 기준 가상발전소 프로젝트 592개 가동 내외뉴스통신",
+      "category": "market"
+    },
+    {
+      "title": "전력거래소, 전력계통 고장예방 기술 5개 주제 공유… 발전사 4곳 공로상",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5fLUFnMkNUVDBvajZuRVgyLWRRb2NvU0ZaZi1YWTZDWlVnXzd1cTNfbm9YSDlaQVp3ZVFjdExGZU91WHZNbWN0Y1kxUHRCZGFoTWJ0b3NpSEVEYXlzbTNLNFV4SlRvb3VmdmNyUWtwaWQtT0pWVU9GR3Bn?oc=5",
+      "source": "로이슈",
+      "published": "2026-11-20T08:24:00+00:00",
+      "summary": "전력거래소, 전력계통 고장예방 기술 5개 주제 공유… 발전사 4곳 공로상 로이슈",
+      "category": "market"
+    },
+    {
+      "title": "전력거래소, 한전·발전사와 계통 고장예방 방안 논의",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9sR21RS3l5VmdvVVBra3ZHWEstdlRLYUZQN21HR3d2TlQ3QnRfb0tvVlBmX0RTQzRVaHdZM2RTVVN6TWVWLXdwUTM4dHdKcGxUYW9Kd0k1dHNvYkI2djlXWjhyNUZ6NU5pS2lwX2tWUkJZZm_SAXdBVV95cUxOUVpXUWhlUzdFanNDZVlTVUdnTlAyb1dDY1hUTXQyQXZuZjFoeWpyX1Uxam1TdHJMV1pmTndYY3BZcWpFbWk2dktXMGxWRUtnMzc2ZmhwYlU5U3Jpa3A0ZWhZOHNLVm9CR3ZYcHZNMVFvYThHN1JFVQ?oc=5",
+      "source": "핀포인트뉴스",
+      "published": "2026-11-20T06:46:36+00:00",
+      "summary": "전력거래소, 한전·발전사와 계통 고장예방 방안 논의 핀포인트뉴스",
+      "category": "market"
+    },
+    {
+      "title": "한국전력거래소, 기술교류회 개최",
+      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9JWmU0M0VEbGpod2YxSml0TUJZVEdnejdaS1VGcHJ4RVBBUnVtUUNOZG5rbHg2bzBtbWp2bGVMYk5GOGtMazFpZmJR?oc=5",
+      "source": "뉴스N연합",
+      "published": "2026-11-20T11:28:24+00:00",
+      "summary": "한국전력거래소, 기술교류회 개최 뉴스N연합",
+      "category": "market"
+    }
+  ],
+  "mock": false
+}
